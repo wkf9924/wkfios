@@ -1,0 +1,168 @@
+define(function () {
+    'use strict';
+    	function ctrl($scope,CarWashRequest,$ionicPopup,$timeout,$location,getGoodList,getTokenR) {
+    		$scope.token=getTokenR.giveToken();
+    		/*请求购物车里面的商品列表*/
+        getToken(function(token){
+          $scope.token=token;
+            CarWashRequest.runHttp("get","/good/shoppingcart",{
+          token:$scope.token
+        }).success(function(response){
+          console.log(response)
+                  /*获取购物车列表*/
+          $scope.buyedGoodsList=response.result;
+              //console.log($scope.buyedGoodsList)
+          /*结算全选*/
+          $scope.selectChecked={
+            isCheckedAll:true
+          };
+          /*编辑全选*/
+          $scope.editChecked={
+            isCheckedAll:false
+          };
+          /*购物车的总数量*/
+          $scope.buyedCount=0;
+          /*是否编辑*/
+          $scope.isEdit=false;
+          /*遍历数组*/
+          angular.forEach($scope.buyedGoodsList,function(value){
+            value["checked"]=true;/*增加结算全选属性*/
+            value["eidtChecked"]=false;/*增加编辑全选属性*/
+          });
+          /*删除购物车*/
+          $scope.removeList=function(){
+            for(var i=0;i<$scope.buyedGoodsList.length;i++){
+              if($scope.buyedGoodsList[i].checked){
+                $scope.buyedGoodsList.splice(i,1);
+                i--;
+              }
+            }
+          }
+          console.log($scope.buyedGoodsList);
+          /*计算购物车的总数量*/
+
+          /*选择购物车中列表*/
+          $scope.selectList=function(obj,isEdit){
+            /*每次点击以后执行*/
+            var proName=null;
+            isEdit? proName="editChecked" : proName="checked";
+        obj.isCheckedAll=true;
+        angular.forEach($scope.buyedGoodsList,function(value){
+          if(!value[proName]){
+            obj.isCheckedAll=false;
+          };
+        })
+          };
+          /*全部选择或全部取消购物车中的列表操作*/
+          $scope.allSelect=function(obj,isEdit){
+            var proName=null;
+            isEdit? proName="editChecked" : proName="checked";
+            angular.forEach($scope.buyedGoodsList,function(value){
+          if(obj.isCheckedAll){
+            value[proName]=true;/*全部选择*/
+          }else{
+            value[proName]=false;/*全部取消*/
+          }
+        });
+          };
+          $scope.$watchCollection("buyedGoodsList",function(newVal){
+            //console.log(newVal)
+          });
+          /*计算总价*/
+          $scope.totalPrice=function(){
+            var total=0;
+            angular.forEach($scope.buyedGoodsList,function(value){
+              if(value.checked){
+                total+=value.buy_count*value.price;
+              }
+            });
+            return total;
+          };
+          /*编辑购物车*/
+          $scope.edit=function(){
+            if(!$scope.isEdit){
+              $scope.isEdit=true;
+            }else{
+              $scope.isEdit=false;
+            }
+          }
+          $scope.hasEdit=function(){
+          };
+          /*没有选择时alert自定义弹窗*/
+          $scope.showPopup = function() {
+            var l=$scope.buyedGoodsList.length;
+            /*选取所要删除商品的id*/
+            var idArr=selectEditeId();
+            
+            if(idArr.length===0){
+              /*一个都没有选择的弹框*/
+              var myalertPopup = $ionicPopup.show({
+                    title: '您还没有选择商品哦',
+                    scope: $scope,
+                  });
+                  $timeout(function() {
+                      myalertPopup.close(); // 2秒后关闭弹窗
+                  }, 2000);
+            }else{
+              /*选择后确认删除对话框*/
+              var myconfirmPopup = $ionicPopup.confirm({
+                      title: '删除提示',
+                      template: '确认删除这个商品'
+                  });
+              /*删除promise*/
+                  myconfirmPopup.then(function(response) {
+                      if(response) {
+                        /*购物车的id*/
+                        var id=$scope.buyedGoodsList[0].cart_id;
+                        CarWashRequest.runHttp("get","/good/delProduct",{
+                          cart_id:id,
+                          token:$scope.token,
+                          good_id:idArr
+                        }).success(function(response){
+                          console.log(response)
+                          $scope.removeList();
+                          /*购物车删完后自动跳转到首页重新选购商品*/
+                          if($scope.buyedGoodsList.length===0){
+                            $location.path("/");
+                          }
+                        }).error(function(response) {
+                          /* Act on the event */
+                        });
+                      } else {
+                          console.log('你不确定');
+                      }
+                  });
+            }
+              };
+              /*生成选择商品的id*/
+              function selectEditeId(){
+                var idArr=[];
+                angular.forEach($scope.buyedGoodsList, function(value){
+                  if(value.editChecked){
+                    idArr.push(value.id)
+                  }
+                });
+                return idArr;
+              };
+              /* 得到商品列表 跳转到下一页*/
+              $scope.getList=function(arr){
+                /*清空数组*/
+                //getGoodList.emptyGoodList();
+                if(angular.isArray(arr)){
+                  getGoodList.addGoods(arr)
+                }
+              }
+
+
+        })
+
+        })
+    	
+
+	}
+    ctrl.$inject = ['$scope',"CarWashRequest","$ionicPopup","$timeout","$location","getGoodList","getTokenR"];
+    return ctrl;
+});
+
+
+

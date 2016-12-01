@@ -1,0 +1,20 @@
+<div class="loaded ng-hide" ng-show="soreders.length==0">
+    您还没有相关订单
+</div>
+<div class="soreder-item"
+     ng-repeat="soreder in soreders"
+     soreder-id="{{soreder.id}}"
+>
+    <div class="soreder-list-item"
+         ui-sref="service-order-nopay"
+         ng-click="serviceOrderEdit(soreder.id,$index)"
+    >
+        <img ng-src="images/{{soreder.img_url}}"  onerror= "javascript:this.src='images/imgerror.png' " alt="" class="">
+        <div class="soreder-list-cont">
+            <div class="font-16 cont-ge">{{soreder.name}}</div>
+            <div class=" strong-dark cont-ge">订单时间：{{soreder.create_time}}</div>
+
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>

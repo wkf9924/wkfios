@@ -16,6 +16,210 @@
 		160E271A1DE7D49B00540992 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 160E27181DE7D49B00540992 /* LaunchScreen.storyboard */; };
 		160E27251DE7D49B00540992 /* DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 160E27241DE7D49B00540992 /* DemoTests.m */; };
 		160E27301DE7D49B00540992 /* DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 160E272F1DE7D49B00540992 /* DemoUITests.m */; };
+		166C8F8E1DEFB9AB008DBE94 /* exec.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8E981DEFB9AB008DBE94 /* exec.js */; };
+		166C8F8F1DEFB9AB008DBE94 /* platform.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8E991DEFB9AB008DBE94 /* platform.js */; };
+		166C8F901DEFB9AB008DBE94 /* cordova.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8E9A1DEFB9AB008DBE94 /* cordova.js */; };
+		166C8F911DEFB9AB008DBE94 /* cordova_plugins.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8E9B1DEFB9AB008DBE94 /* cordova_plugins.js */; };
+		166C8F921DEFB9AB008DBE94 /* common.css in Resources */ = {isa = PBXBuildFile; fileRef = 166C8E9D1DEFB9AB008DBE94 /* common.css */; };
+		166C8F931DEFB9AB008DBE94 /* discovery-detail.css in Resources */ = {isa = PBXBuildFile; fileRef = 166C8E9F1DEFB9AB008DBE94 /* discovery-detail.css */; };
+		166C8F941DEFB9AB008DBE94 /* discovery.css in Resources */ = {isa = PBXBuildFile; fileRef = 166C8EA01DEFB9AB008DBE94 /* discovery.css */; };
+		166C8F951DEFB9AB008DBE94 /* address.css in Resources */ = {isa = PBXBuildFile; fileRef = 166C8EA21DEFB9AB008DBE94 /* address.css */; };
+		166C8F961DEFB9AB008DBE94 /* detail.css in Resources */ = {isa = PBXBuildFile; fileRef = 166C8EA31DEFB9AB008DBE94 /* detail.css */; };
+		166C8F971DEFB9AB008DBE94 /* mall-common.css in Resources */ = {isa = PBXBuildFile; fileRef = 166C8EA41DEFB9AB008DBE94 /* mall-common.css */; };
+		166C8F981DEFB9AB008DBE94 /* mall.css in Resources */ = {isa = PBXBuildFile; fileRef = 166C8EA51DEFB9AB008DBE94 /* mall.css */; };
+		166C8F991DEFB9AB008DBE94 /* my-car.css in Resources */ = {isa = PBXBuildFile; fileRef = 166C8EA61DEFB9AB008DBE94 /* my-car.css */; };
+		166C8F9A1DEFB9AB008DBE94 /* order.css in Resources */ = {isa = PBXBuildFile; fileRef = 166C8EA71DEFB9AB008DBE94 /* order.css */; };
+		166C8F9B1DEFB9AB008DBE94 /* serviceorder.css in Resources */ = {isa = PBXBuildFile; fileRef = 166C8EA91DEFB9AB008DBE94 /* serviceorder.css */; };
+		166C8F9C1DEFB9AB008DBE94 /* sure-order.css in Resources */ = {isa = PBXBuildFile; fileRef = 166C8EAA1DEFB9AB008DBE94 /* sure-order.css */; };
+		166C8F9D1DEFB9AB008DBE94 /* tabSlideBox.css in Resources */ = {isa = PBXBuildFile; fileRef = 166C8EAB1DEFB9AB008DBE94 /* tabSlideBox.css */; };
+		166C8F9E1DEFB9AB008DBE94 /* other.css in Resources */ = {isa = PBXBuildFile; fileRef = 166C8EAD1DEFB9AB008DBE94 /* other.css */; };
+		166C8F9F1DEFB9AB008DBE94 /* iconfont.css in Resources */ = {isa = PBXBuildFile; fileRef = 166C8EAF1DEFB9AB008DBE94 /* iconfont.css */; };
+		166C8FA01DEFB9AB008DBE94 /* iconfont.eot in Resources */ = {isa = PBXBuildFile; fileRef = 166C8EB01DEFB9AB008DBE94 /* iconfont.eot */; };
+		166C8FA11DEFB9AB008DBE94 /* iconfont.svg in Resources */ = {isa = PBXBuildFile; fileRef = 166C8EB11DEFB9AB008DBE94 /* iconfont.svg */; };
+		166C8FA21DEFB9AB008DBE94 /* iconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 166C8EB21DEFB9AB008DBE94 /* iconfont.ttf */; };
+		166C8FA31DEFB9AB008DBE94 /* iconfont.woff in Resources */ = {isa = PBXBuildFile; fileRef = 166C8EB31DEFB9AB008DBE94 /* iconfont.woff */; };
+		166C8FA41DEFB9AB008DBE94 /* address.png in Resources */ = {isa = PBXBuildFile; fileRef = 166C8EB51DEFB9AB008DBE94 /* address.png */; };
+		166C8FA51DEFB9AB008DBE94 /* arrow-right.png in Resources */ = {isa = PBXBuildFile; fileRef = 166C8EB61DEFB9AB008DBE94 /* arrow-right.png */; };
+		166C8FA61DEFB9AB008DBE94 /* back-big.png in Resources */ = {isa = PBXBuildFile; fileRef = 166C8EB71DEFB9AB008DBE94 /* back-big.png */; };
+		166C8FA71DEFB9AB008DBE94 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 166C8EB81DEFB9AB008DBE94 /* back.png */; };
+		166C8FA81DEFB9AB008DBE94 /* comment.png in Resources */ = {isa = PBXBuildFile; fileRef = 166C8EB91DEFB9AB008DBE94 /* comment.png */; };
+		166C8FA91DEFB9AB008DBE94 /* defaultImg.png in Resources */ = {isa = PBXBuildFile; fileRef = 166C8EBA1DEFB9AB008DBE94 /* defaultImg.png */; };
+		166C8FAA1DEFB9AB008DBE94 /* fworder-tel.png in Resources */ = {isa = PBXBuildFile; fileRef = 166C8EBB1DEFB9AB008DBE94 /* fworder-tel.png */; };
+		166C8FAB1DEFB9AB008DBE94 /* fworder-title.png in Resources */ = {isa = PBXBuildFile; fileRef = 166C8EBC1DEFB9AB008DBE94 /* fworder-title.png */; };
+		166C8FAC1DEFB9AB008DBE94 /* good.png in Resources */ = {isa = PBXBuildFile; fileRef = 166C8EBD1DEFB9AB008DBE94 /* good.png */; };
+		166C8FAD1DEFB9AB008DBE94 /* icon-dx.png in Resources */ = {isa = PBXBuildFile; fileRef = 166C8EBE1DEFB9AB008DBE94 /* icon-dx.png */; };
+		166C8FAE1DEFB9AB008DBE94 /* icon-pyq.png in Resources */ = {isa = PBXBuildFile; fileRef = 166C8EBF1DEFB9AB008DBE94 /* icon-pyq.png */; };
+		166C8FAF1DEFB9AB008DBE94 /* icon-wb.png in Resources */ = {isa = PBXBuildFile; fileRef = 166C8EC01DEFB9AB008DBE94 /* icon-wb.png */; };
+		166C8FB01DEFB9AB008DBE94 /* icon-wx.png in Resources */ = {isa = PBXBuildFile; fileRef = 166C8EC11DEFB9AB008DBE94 /* icon-wx.png */; };
+		166C8FB11DEFB9AB008DBE94 /* imgerror.png in Resources */ = {isa = PBXBuildFile; fileRef = 166C8EC21DEFB9AB008DBE94 /* imgerror.png */; };
+		166C8FB21DEFB9AB008DBE94 /* laud.png in Resources */ = {isa = PBXBuildFile; fileRef = 166C8EC31DEFB9AB008DBE94 /* laud.png */; };
+		166C8FB31DEFB9AB008DBE94 /* like.png in Resources */ = {isa = PBXBuildFile; fileRef = 166C8EC41DEFB9AB008DBE94 /* like.png */; };
+		166C8FB41DEFB9AB008DBE94 /* likei-ac.png in Resources */ = {isa = PBXBuildFile; fileRef = 166C8EC51DEFB9AB008DBE94 /* likei-ac.png */; };
+		166C8FB51DEFB9AB008DBE94 /* list.png in Resources */ = {isa = PBXBuildFile; fileRef = 166C8EC61DEFB9AB008DBE94 /* list.png */; };
+		166C8FB61DEFB9AB008DBE94 /* main_banner.png in Resources */ = {isa = PBXBuildFile; fileRef = 166C8EC71DEFB9AB008DBE94 /* main_banner.png */; };
+		166C8FB71DEFB9AB008DBE94 /* main_banner2.png in Resources */ = {isa = PBXBuildFile; fileRef = 166C8EC81DEFB9AB008DBE94 /* main_banner2.png */; };
+		166C8FB81DEFB9AB008DBE94 /* closed-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 166C8ECA1DEFB9AB008DBE94 /* closed-icon.png */; };
+		166C8FB91DEFB9AB008DBE94 /* fw-closed-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 166C8ECB1DEFB9AB008DBE94 /* fw-closed-icon.png */; };
+		166C8FBA1DEFB9AB008DBE94 /* fw-pay-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 166C8ECC1DEFB9AB008DBE94 /* fw-pay-icon.png */; };
+		166C8FBB1DEFB9AB008DBE94 /* fw-successed-payed-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 166C8ECD1DEFB9AB008DBE94 /* fw-successed-payed-icon.png */; };
+		166C8FBC1DEFB9AB008DBE94 /* fw-unpay_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 166C8ECE1DEFB9AB008DBE94 /* fw-unpay_icon.png */; };
+		166C8FBD1DEFB9AB008DBE94 /* payed-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 166C8ECF1DEFB9AB008DBE94 /* payed-icon.png */; };
+		166C8FBE1DEFB9AB008DBE94 /* payed-send-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 166C8ED01DEFB9AB008DBE94 /* payed-send-icon.png */; };
+		166C8FBF1DEFB9AB008DBE94 /* successed-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 166C8ED11DEFB9AB008DBE94 /* successed-icon.png */; };
+		166C8FC01DEFB9AB008DBE94 /* successed-payed-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 166C8ED21DEFB9AB008DBE94 /* successed-payed-icon.png */; };
+		166C8FC11DEFB9AB008DBE94 /* unpay-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 166C8ED31DEFB9AB008DBE94 /* unpay-icon.png */; };
+		166C8FC21DEFB9AB008DBE94 /* order-pic01.png in Resources */ = {isa = PBXBuildFile; fileRef = 166C8ED41DEFB9AB008DBE94 /* order-pic01.png */; };
+		166C8FC31DEFB9AB008DBE94 /* order-pic02.png in Resources */ = {isa = PBXBuildFile; fileRef = 166C8ED51DEFB9AB008DBE94 /* order-pic02.png */; };
+		166C8FC41DEFB9AB008DBE94 /* order-pic03.png in Resources */ = {isa = PBXBuildFile; fileRef = 166C8ED61DEFB9AB008DBE94 /* order-pic03.png */; };
+		166C8FC51DEFB9AB008DBE94 /* order-pic04.png in Resources */ = {isa = PBXBuildFile; fileRef = 166C8ED71DEFB9AB008DBE94 /* order-pic04.png */; };
+		166C8FC61DEFB9AB008DBE94 /* picture-detail.png in Resources */ = {isa = PBXBuildFile; fileRef = 166C8ED81DEFB9AB008DBE94 /* picture-detail.png */; };
+		166C8FC71DEFB9AB008DBE94 /* portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 166C8ED91DEFB9AB008DBE94 /* portrait.png */; };
+		166C8FC81DEFB9AB008DBE94 /* shoppingcar.png in Resources */ = {isa = PBXBuildFile; fileRef = 166C8EDA1DEFB9AB008DBE94 /* shoppingcar.png */; };
+		166C8FC91DEFB9AB008DBE94 /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 166C8EDB1DEFB9AB008DBE94 /* test.jpg */; };
+		166C8FCA1DEFB9AB008DBE94 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 166C8EDC1DEFB9AB008DBE94 /* index.html */; };
+		166C8FCB1DEFB9AB008DBE94 /* app.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8EDE1DEFB9AB008DBE94 /* app.js */; };
+		166C8FCC1DEFB9AB008DBE94 /* bootstrap.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8EDF1DEFB9AB008DBE94 /* bootstrap.js */; };
+		166C8FCD1DEFB9AB008DBE94 /* CITY-JSON.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8EE01DEFB9AB008DBE94 /* CITY-JSON.js */; };
+		166C8FCE1DEFB9AB008DBE94 /* addressAddCtrl.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8EE21DEFB9AB008DBE94 /* addressAddCtrl.js */; };
+		166C8FCF1DEFB9AB008DBE94 /* AddressMyCtrl.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8EE31DEFB9AB008DBE94 /* AddressMyCtrl.js */; };
+		166C8FD01DEFB9AB008DBE94 /* CartCtrl.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8EE41DEFB9AB008DBE94 /* CartCtrl.js */; };
+		166C8FD11DEFB9AB008DBE94 /* commentCtrl.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8EE51DEFB9AB008DBE94 /* commentCtrl.js */; };
+		166C8FD21DEFB9AB008DBE94 /* controllers.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8EE61DEFB9AB008DBE94 /* controllers.js */; };
+		166C8FD31DEFB9AB008DBE94 /* DiscoveryCtrl.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8EE71DEFB9AB008DBE94 /* DiscoveryCtrl.js */; };
+		166C8FD41DEFB9AB008DBE94 /* DiscoveryDetailCtrl.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8EE81DEFB9AB008DBE94 /* DiscoveryDetailCtrl.js */; };
+		166C8FD51DEFB9AB008DBE94 /* GoodDetailCtrl.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8EE91DEFB9AB008DBE94 /* GoodDetailCtrl.js */; };
+		166C8FD61DEFB9AB008DBE94 /* MallCtrl.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8EEA1DEFB9AB008DBE94 /* MallCtrl.js */; };
+		166C8FD71DEFB9AB008DBE94 /* myCarCtrl.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8EEB1DEFB9AB008DBE94 /* myCarCtrl.js */; };
+		166C8FD81DEFB9AB008DBE94 /* myOrderCtrl.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8EEC1DEFB9AB008DBE94 /* myOrderCtrl.js */; };
+		166C8FD91DEFB9AB008DBE94 /* OrderCtrl.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8EED1DEFB9AB008DBE94 /* OrderCtrl.js */; };
+		166C8FDA1DEFB9AB008DBE94 /* orderInfoCtrl.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8EEE1DEFB9AB008DBE94 /* orderInfoCtrl.js */; };
+		166C8FDB1DEFB9AB008DBE94 /* pictureDetailCtrl.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8EEF1DEFB9AB008DBE94 /* pictureDetailCtrl.js */; };
+		166C8FDC1DEFB9AB008DBE94 /* productListCtrl.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8EF01DEFB9AB008DBE94 /* productListCtrl.js */; };
+		166C8FDD1DEFB9AB008DBE94 /* productParasDetailCtrl.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8EF11DEFB9AB008DBE94 /* productParasDetailCtrl.js */; };
+		166C8FDE1DEFB9AB008DBE94 /* SelectProvinceCtrl.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8EF21DEFB9AB008DBE94 /* SelectProvinceCtrl.js */; };
+		166C8FDF1DEFB9AB008DBE94 /* ServiceOrderCtrl.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8EF31DEFB9AB008DBE94 /* ServiceOrderCtrl.js */; };
+		166C8FE01DEFB9AB008DBE94 /* ServiceOrderDetailCtrl.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8EF41DEFB9AB008DBE94 /* ServiceOrderDetailCtrl.js */; };
+		166C8FE11DEFB9AB008DBE94 /* StarterCtrl.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8EF51DEFB9AB008DBE94 /* StarterCtrl.js */; };
+		166C8FE21DEFB9AB008DBE94 /* sureOrderCtrl.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8EF61DEFB9AB008DBE94 /* sureOrderCtrl.js */; };
+		166C8FE31DEFB9AB008DBE94 /* css.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8EF71DEFB9AB008DBE94 /* css.js */; };
+		166C8FE41DEFB9AB008DBE94 /* actBuyCount.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8EF91DEFB9AB008DBE94 /* actBuyCount.js */; };
+		166C8FE51DEFB9AB008DBE94 /* addtoCart.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8EFA1DEFB9AB008DBE94 /* addtoCart.js */; };
+		166C8FE61DEFB9AB008DBE94 /* cancleOrder.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8EFB1DEFB9AB008DBE94 /* cancleOrder.js */; };
+		166C8FE71DEFB9AB008DBE94 /* cartNum.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8EFC1DEFB9AB008DBE94 /* cartNum.js */; };
+		166C8FE81DEFB9AB008DBE94 /* deleteOrder.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8EFD1DEFB9AB008DBE94 /* deleteOrder.js */; };
+		166C8FE91DEFB9AB008DBE94 /* directives.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8EFE1DEFB9AB008DBE94 /* directives.js */; };
+		166C8FEA1DEFB9AB008DBE94 /* editCart.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8EFF1DEFB9AB008DBE94 /* editCart.js */; };
+		166C8FEB1DEFB9AB008DBE94 /* errorSrc.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F001DEFB9AB008DBE94 /* errorSrc.js */; };
+		166C8FEC1DEFB9AB008DBE94 /* getAddressForm.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F011DEFB9AB008DBE94 /* getAddressForm.js */; };
+		166C8FED1DEFB9AB008DBE94 /* goBackMy.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F021DEFB9AB008DBE94 /* goBackMy.js */; };
+		166C8FEE1DEFB9AB008DBE94 /* NewscommentDirective.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F031DEFB9AB008DBE94 /* NewscommentDirective.js */; };
+		166C8FEF1DEFB9AB008DBE94 /* NewslistDirective.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F041DEFB9AB008DBE94 /* NewslistDirective.js */; };
+		166C8FF01DEFB9AB008DBE94 /* operateCount.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F051DEFB9AB008DBE94 /* operateCount.js */; };
+		166C8FF11DEFB9AB008DBE94 /* postAddressForm.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F061DEFB9AB008DBE94 /* postAddressForm.js */; };
+		166C8FF21DEFB9AB008DBE94 /* score.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F071DEFB9AB008DBE94 /* score.js */; };
+		166C8FF31DEFB9AB008DBE94 /* scoreStar.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F081DEFB9AB008DBE94 /* scoreStar.js */; };
+		166C8FF41DEFB9AB008DBE94 /* ServiceorderDirective.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F091DEFB9AB008DBE94 /* ServiceorderDirective.js */; };
+		166C8FF51DEFB9AB008DBE94 /* ShareDirective.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F0A1DEFB9AB008DBE94 /* ShareDirective.js */; };
+		166C8FF61DEFB9AB008DBE94 /* sureReceive.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F0B1DEFB9AB008DBE94 /* sureReceive.js */; };
+		166C8FF71DEFB9AB008DBE94 /* filters.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F0D1DEFB9AB008DBE94 /* filters.js */; };
+		166C8FF81DEFB9AB008DBE94 /* toImgUrl.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F0E1DEFB9AB008DBE94 /* toImgUrl.js */; };
+		166C8FF91DEFB9AB008DBE94 /* linkAddress.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F0F1DEFB9AB008DBE94 /* linkAddress.js */; };
+		166C8FFA1DEFB9AB008DBE94 /* main-development.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F101DEFB9AB008DBE94 /* main-development.js */; };
+		166C8FFB1DEFB9AB008DBE94 /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F111DEFB9AB008DBE94 /* main.js */; };
+		166C8FFC1DEFB9AB008DBE94 /* require.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F121DEFB9AB008DBE94 /* require.js */; };
+		166C8FFD1DEFB9AB008DBE94 /* require.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F131DEFB9AB008DBE94 /* require.min.js */; };
+		166C8FFE1DEFB9AB008DBE94 /* CarWashRequest.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F151DEFB9AB008DBE94 /* CarWashRequest.js */; };
+		166C8FFF1DEFB9AB008DBE94 /* confirmPopu.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F161DEFB9AB008DBE94 /* confirmPopu.js */; };
+		166C90001DEFB9AB008DBE94 /* customeLoading.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F171DEFB9AB008DBE94 /* customeLoading.js */; };
+		166C90011DEFB9AB008DBE94 /* customePopu.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F181DEFB9AB008DBE94 /* customePopu.js */; };
+		166C90021DEFB9AB008DBE94 /* DetailService.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F191DEFB9AB008DBE94 /* DetailService.js */; };
+		166C90031DEFB9AB008DBE94 /* DiscoveryService.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F1A1DEFB9AB008DBE94 /* DiscoveryService.js */; };
+		166C90041DEFB9AB008DBE94 /* getAddress.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F1B1DEFB9AB008DBE94 /* getAddress.js */; };
+		166C90051DEFB9AB008DBE94 /* getAddressData.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F1C1DEFB9AB008DBE94 /* getAddressData.js */; };
+		166C90061DEFB9AB008DBE94 /* getClassName.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F1D1DEFB9AB008DBE94 /* getClassName.js */; };
+		166C90071DEFB9AB008DBE94 /* getData.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F1E1DEFB9AB008DBE94 /* getData.js */; };
+		166C90081DEFB9AB008DBE94 /* getDefaultAddress.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F1F1DEFB9AB008DBE94 /* getDefaultAddress.js */; };
+		166C90091DEFB9AB008DBE94 /* getfield.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F201DEFB9AB008DBE94 /* getfield.js */; };
+		166C900A1DEFB9AB008DBE94 /* getFreightage.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F211DEFB9AB008DBE94 /* getFreightage.js */; };
+		166C900B1DEFB9AB008DBE94 /* getGoodList.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F221DEFB9AB008DBE94 /* getGoodList.js */; };
+		166C900C1DEFB9AB008DBE94 /* getId.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F231DEFB9AB008DBE94 /* getId.js */; };
+		166C900D1DEFB9AB008DBE94 /* getTokenR.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F241DEFB9AB008DBE94 /* getTokenR.js */; };
+		166C900E1DEFB9AB008DBE94 /* GoodDetailService.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F251DEFB9AB008DBE94 /* GoodDetailService.js */; };
+		166C900F1DEFB9AB008DBE94 /* goOperateAddress.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F261DEFB9AB008DBE94 /* goOperateAddress.js */; };
+		166C90101DEFB9AB008DBE94 /* operateUrl.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F271DEFB9AB008DBE94 /* operateUrl.js */; };
+		166C90111DEFB9AB008DBE94 /* orderPayedService.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F281DEFB9AB008DBE94 /* orderPayedService.js */; };
+		166C90121DEFB9AB008DBE94 /* orderUnpayService.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F291DEFB9AB008DBE94 /* orderUnpayService.js */; };
+		166C90131DEFB9AB008DBE94 /* sendUrl.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F2A1DEFB9AB008DBE94 /* sendUrl.js */; };
+		166C90141DEFB9AB008DBE94 /* services.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F2B1DEFB9AB008DBE94 /* services.js */; };
+		166C90151DEFB9AB008DBE94 /* sureOrderService.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F2C1DEFB9AB008DBE94 /* sureOrderService.js */; };
+		166C90161DEFB9AB008DBE94 /* urlData.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F2D1DEFB9AB008DBE94 /* urlData.js */; };
+		166C90171DEFB9AB008DBE94 /* tabSlideBox.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F2E1DEFB9AB008DBE94 /* tabSlideBox.js */; };
+		166C90181DEFB9AB008DBE94 /* ionic.css in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F321DEFB9AB008DBE94 /* ionic.css */; };
+		166C90191DEFB9AB008DBE94 /* ionic.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F331DEFB9AB008DBE94 /* ionic.min.css */; };
+		166C901A1DEFB9AB008DBE94 /* ionicons.eot in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F351DEFB9AB008DBE94 /* ionicons.eot */; };
+		166C901B1DEFB9AB008DBE94 /* ionicons.svg in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F361DEFB9AB008DBE94 /* ionicons.svg */; };
+		166C901C1DEFB9AB008DBE94 /* ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F371DEFB9AB008DBE94 /* ionicons.ttf */; };
+		166C901D1DEFB9AB008DBE94 /* ionicons.woff in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F381DEFB9AB008DBE94 /* ionicons.woff */; };
+		166C901E1DEFB9AB008DBE94 /* angular-animate.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F3B1DEFB9AB008DBE94 /* angular-animate.js */; };
+		166C901F1DEFB9AB008DBE94 /* angular-animate.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F3C1DEFB9AB008DBE94 /* angular-animate.min.js */; };
+		166C90201DEFB9AB008DBE94 /* angular-resource.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F3D1DEFB9AB008DBE94 /* angular-resource.js */; };
+		166C90211DEFB9AB008DBE94 /* angular-resource.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F3E1DEFB9AB008DBE94 /* angular-resource.min.js */; };
+		166C90221DEFB9AB008DBE94 /* angular-sanitize.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F3F1DEFB9AB008DBE94 /* angular-sanitize.js */; };
+		166C90231DEFB9AB008DBE94 /* angular-sanitize.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F401DEFB9AB008DBE94 /* angular-sanitize.min.js */; };
+		166C90241DEFB9AB008DBE94 /* angular.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F411DEFB9AB008DBE94 /* angular.js */; };
+		166C90251DEFB9AB008DBE94 /* angular.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F421DEFB9AB008DBE94 /* angular.min.js */; };
+		166C90261DEFB9AB008DBE94 /* angular-ui-router.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F441DEFB9AB008DBE94 /* angular-ui-router.js */; };
+		166C90271DEFB9AB008DBE94 /* angular-ui-router.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F451DEFB9AB008DBE94 /* angular-ui-router.min.js */; };
+		166C90281DEFB9AB008DBE94 /* ionic-angular.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F461DEFB9AB008DBE94 /* ionic-angular.js */; };
+		166C90291DEFB9AB008DBE94 /* ionic-angular.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F471DEFB9AB008DBE94 /* ionic-angular.min.js */; };
+		166C902A1DEFB9AB008DBE94 /* ionic.bundle.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F481DEFB9AB008DBE94 /* ionic.bundle.js */; };
+		166C902B1DEFB9AB008DBE94 /* ionic.bundle.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F491DEFB9AB008DBE94 /* ionic.bundle.min.js */; };
+		166C902C1DEFB9AB008DBE94 /* ionic.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F4A1DEFB9AB008DBE94 /* ionic.js */; };
+		166C902D1DEFB9AB008DBE94 /* ionic.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F4B1DEFB9AB008DBE94 /* ionic.min.js */; };
+		166C902E1DEFB9AB008DBE94 /* version.json in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F4C1DEFB9AB008DBE94 /* version.json */; };
+		166C902F1DEFB9AB008DBE94 /* plugin-function.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F4D1DEFB9AB008DBE94 /* plugin-function.js */; };
+		166C90301DEFB9AB008DBE94 /* GetData.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F511DEFB9AB008DBE94 /* GetData.js */; };
+		166C90311DEFB9AB008DBE94 /* GoBack.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F541DEFB9AB008DBE94 /* GoBack.js */; };
+		166C90321DEFB9AB008DBE94 /* GoSerPay.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F571DEFB9AB008DBE94 /* GoSerPay.js */; };
+		166C90331DEFB9AB008DBE94 /* GoToPay.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F5A1DEFB9AB008DBE94 /* GoToPay.js */; };
+		166C90341DEFB9AB008DBE94 /* MallPrompt.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F5D1DEFB9AB008DBE94 /* MallPrompt.js */; };
+		166C90351DEFB9AB008DBE94 /* Share.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F601DEFB9AB008DBE94 /* Share.js */; };
+		166C90361DEFB9AB008DBE94 /* TabbarVisibility.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F631DEFB9AB008DBE94 /* TabbarVisibility.js */; };
+		166C90371DEFB9AB008DBE94 /* share.html in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F661DEFB9AB008DBE94 /* share.html */; };
+		166C90381DEFB9AB008DBE94 /* discovery-comment.html in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F681DEFB9AB008DBE94 /* discovery-comment.html */; };
+		166C90391DEFB9AB008DBE94 /* discovery-detail.html in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F691DEFB9AB008DBE94 /* discovery-detail.html */; };
+		166C903A1DEFB9AB008DBE94 /* discovery-item.html in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F6A1DEFB9AB008DBE94 /* discovery-item.html */; };
+		166C903B1DEFB9AB008DBE94 /* discovery.html in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F6B1DEFB9AB008DBE94 /* discovery.html */; };
+		166C903C1DEFB9AB008DBE94 /* share.html in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F6C1DEFB9AB008DBE94 /* share.html */; };
+		166C903D1DEFB9AB008DBE94 /* address-add.html in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F6E1DEFB9AB008DBE94 /* address-add.html */; };
+		166C903E1DEFB9AB008DBE94 /* address-my.html in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F6F1DEFB9AB008DBE94 /* address-my.html */; };
+		166C903F1DEFB9AB008DBE94 /* comment.html in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F701DEFB9AB008DBE94 /* comment.html */; };
+		166C90401DEFB9AB008DBE94 /* detail.html in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F711DEFB9AB008DBE94 /* detail.html */; };
+		166C90411DEFB9AB008DBE94 /* good-item.html in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F721DEFB9AB008DBE94 /* good-item.html */; };
+		166C90421DEFB9AB008DBE94 /* mall.html in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F731DEFB9AB008DBE94 /* mall.html */; };
+		166C90431DEFB9AB008DBE94 /* my-car.html in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F741DEFB9AB008DBE94 /* my-car.html */; };
+		166C90441DEFB9AB008DBE94 /* myorder-template.html in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F751DEFB9AB008DBE94 /* myorder-template.html */; };
+		166C90451DEFB9AB008DBE94 /* myorder.html in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F761DEFB9AB008DBE94 /* myorder.html */; };
+		166C90461DEFB9AB008DBE94 /* order-info.html in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F771DEFB9AB008DBE94 /* order-info.html */; };
+		166C90471DEFB9AB008DBE94 /* picture-detail.html in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F781DEFB9AB008DBE94 /* picture-detail.html */; };
+		166C90481DEFB9AB008DBE94 /* product-list.html in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F791DEFB9AB008DBE94 /* product-list.html */; };
+		166C90491DEFB9AB008DBE94 /* product-paras.html in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F7A1DEFB9AB008DBE94 /* product-paras.html */; };
+		166C904A1DEFB9AB008DBE94 /* select-city.html in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F7B1DEFB9AB008DBE94 /* select-city.html */; };
+		166C904B1DEFB9AB008DBE94 /* select-district.html in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F7C1DEFB9AB008DBE94 /* select-district.html */; };
+		166C904C1DEFB9AB008DBE94 /* select-province.html in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F7D1DEFB9AB008DBE94 /* select-province.html */; };
+		166C904D1DEFB9AB008DBE94 /* service-order-fwcont.html in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F7F1DEFB9AB008DBE94 /* service-order-fwcont.html */; };
+		166C904E1DEFB9AB008DBE94 /* service-order-list.html in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F801DEFB9AB008DBE94 /* service-order-list.html */; };
+		166C904F1DEFB9AB008DBE94 /* service-order-nopay.html in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F811DEFB9AB008DBE94 /* service-order-nopay.html */; };
+		166C90501DEFB9AB008DBE94 /* service-order-sccont.html in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F821DEFB9AB008DBE94 /* service-order-sccont.html */; };
+		166C90511DEFB9AB008DBE94 /* service-order.html in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F831DEFB9AB008DBE94 /* service-order.html */; };
+		166C90521DEFB9AB008DBE94 /* sure-order.html in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F841DEFB9AB008DBE94 /* sure-order.html */; };
+		166C90531DEFB9AB008DBE94 /* about-us.html in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F861DEFB9AB008DBE94 /* about-us.html */; };
+		166C90541DEFB9AB008DBE94 /* card-agreement.html in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F871DEFB9AB008DBE94 /* card-agreement.html */; };
+		166C90551DEFB9AB008DBE94 /* service-agreement.html in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F881DEFB9AB008DBE94 /* service-agreement.html */; };
+		166C90561DEFB9AB008DBE94 /* share.html in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F891DEFB9AB008DBE94 /* share.html */; };
+		166C90571DEFB9AB008DBE94 /* build.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F8B1DEFB9AB008DBE94 /* build.js */; };
+		166C90581DEFB9AB008DBE94 /* r.js in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F8C1DEFB9AB008DBE94 /* r.js */; };
+		166C90591DEFB9AB008DBE94 /* styles.css in Resources */ = {isa = PBXBuildFile; fileRef = 166C8F8D1DEFB9AB008DBE94 /* styles.css */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +258,210 @@
 		160E272B1DE7D49B00540992 /* DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		160E272F1DE7D49B00540992 /* DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoUITests.m; sourceTree = "<group>"; };
 		160E27311DE7D49B00540992 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		166C8E981DEFB9AB008DBE94 /* exec.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = exec.js; sourceTree = "<group>"; };
+		166C8E991DEFB9AB008DBE94 /* platform.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = platform.js; sourceTree = "<group>"; };
+		166C8E9A1DEFB9AB008DBE94 /* cordova.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = cordova.js; sourceTree = "<group>"; };
+		166C8E9B1DEFB9AB008DBE94 /* cordova_plugins.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = cordova_plugins.js; sourceTree = "<group>"; };
+		166C8E9D1DEFB9AB008DBE94 /* common.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = common.css; sourceTree = "<group>"; };
+		166C8E9F1DEFB9AB008DBE94 /* discovery-detail.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "discovery-detail.css"; sourceTree = "<group>"; };
+		166C8EA01DEFB9AB008DBE94 /* discovery.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = discovery.css; sourceTree = "<group>"; };
+		166C8EA21DEFB9AB008DBE94 /* address.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = address.css; sourceTree = "<group>"; };
+		166C8EA31DEFB9AB008DBE94 /* detail.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = detail.css; sourceTree = "<group>"; };
+		166C8EA41DEFB9AB008DBE94 /* mall-common.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "mall-common.css"; sourceTree = "<group>"; };
+		166C8EA51DEFB9AB008DBE94 /* mall.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = mall.css; sourceTree = "<group>"; };
+		166C8EA61DEFB9AB008DBE94 /* my-car.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "my-car.css"; sourceTree = "<group>"; };
+		166C8EA71DEFB9AB008DBE94 /* order.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = order.css; sourceTree = "<group>"; };
+		166C8EA91DEFB9AB008DBE94 /* serviceorder.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = serviceorder.css; sourceTree = "<group>"; };
+		166C8EAA1DEFB9AB008DBE94 /* sure-order.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "sure-order.css"; sourceTree = "<group>"; };
+		166C8EAB1DEFB9AB008DBE94 /* tabSlideBox.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = tabSlideBox.css; sourceTree = "<group>"; };
+		166C8EAD1DEFB9AB008DBE94 /* other.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = other.css; sourceTree = "<group>"; };
+		166C8EAF1DEFB9AB008DBE94 /* iconfont.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = iconfont.css; sourceTree = "<group>"; };
+		166C8EB01DEFB9AB008DBE94 /* iconfont.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = iconfont.eot; sourceTree = "<group>"; };
+		166C8EB11DEFB9AB008DBE94 /* iconfont.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = iconfont.svg; sourceTree = "<group>"; };
+		166C8EB21DEFB9AB008DBE94 /* iconfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = iconfont.ttf; sourceTree = "<group>"; };
+		166C8EB31DEFB9AB008DBE94 /* iconfont.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = iconfont.woff; sourceTree = "<group>"; };
+		166C8EB51DEFB9AB008DBE94 /* address.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = address.png; sourceTree = "<group>"; };
+		166C8EB61DEFB9AB008DBE94 /* arrow-right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-right.png"; sourceTree = "<group>"; };
+		166C8EB71DEFB9AB008DBE94 /* back-big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-big.png"; sourceTree = "<group>"; };
+		166C8EB81DEFB9AB008DBE94 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		166C8EB91DEFB9AB008DBE94 /* comment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = comment.png; sourceTree = "<group>"; };
+		166C8EBA1DEFB9AB008DBE94 /* defaultImg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = defaultImg.png; sourceTree = "<group>"; };
+		166C8EBB1DEFB9AB008DBE94 /* fworder-tel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fworder-tel.png"; sourceTree = "<group>"; };
+		166C8EBC1DEFB9AB008DBE94 /* fworder-title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fworder-title.png"; sourceTree = "<group>"; };
+		166C8EBD1DEFB9AB008DBE94 /* good.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = good.png; sourceTree = "<group>"; };
+		166C8EBE1DEFB9AB008DBE94 /* icon-dx.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-dx.png"; sourceTree = "<group>"; };
+		166C8EBF1DEFB9AB008DBE94 /* icon-pyq.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-pyq.png"; sourceTree = "<group>"; };
+		166C8EC01DEFB9AB008DBE94 /* icon-wb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-wb.png"; sourceTree = "<group>"; };
+		166C8EC11DEFB9AB008DBE94 /* icon-wx.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-wx.png"; sourceTree = "<group>"; };
+		166C8EC21DEFB9AB008DBE94 /* imgerror.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imgerror.png; sourceTree = "<group>"; };
+		166C8EC31DEFB9AB008DBE94 /* laud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = laud.png; sourceTree = "<group>"; };
+		166C8EC41DEFB9AB008DBE94 /* like.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = like.png; sourceTree = "<group>"; };
+		166C8EC51DEFB9AB008DBE94 /* likei-ac.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "likei-ac.png"; sourceTree = "<group>"; };
+		166C8EC61DEFB9AB008DBE94 /* list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list.png; sourceTree = "<group>"; };
+		166C8EC71DEFB9AB008DBE94 /* main_banner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main_banner.png; sourceTree = "<group>"; };
+		166C8EC81DEFB9AB008DBE94 /* main_banner2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main_banner2.png; sourceTree = "<group>"; };
+		166C8ECA1DEFB9AB008DBE94 /* closed-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "closed-icon.png"; sourceTree = "<group>"; };
+		166C8ECB1DEFB9AB008DBE94 /* fw-closed-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fw-closed-icon.png"; sourceTree = "<group>"; };
+		166C8ECC1DEFB9AB008DBE94 /* fw-pay-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fw-pay-icon.png"; sourceTree = "<group>"; };
+		166C8ECD1DEFB9AB008DBE94 /* fw-successed-payed-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fw-successed-payed-icon.png"; sourceTree = "<group>"; };
+		166C8ECE1DEFB9AB008DBE94 /* fw-unpay_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fw-unpay_icon.png"; sourceTree = "<group>"; };
+		166C8ECF1DEFB9AB008DBE94 /* payed-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "payed-icon.png"; sourceTree = "<group>"; };
+		166C8ED01DEFB9AB008DBE94 /* payed-send-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "payed-send-icon.png"; sourceTree = "<group>"; };
+		166C8ED11DEFB9AB008DBE94 /* successed-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "successed-icon.png"; sourceTree = "<group>"; };
+		166C8ED21DEFB9AB008DBE94 /* successed-payed-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "successed-payed-icon.png"; sourceTree = "<group>"; };
+		166C8ED31DEFB9AB008DBE94 /* unpay-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "unpay-icon.png"; sourceTree = "<group>"; };
+		166C8ED41DEFB9AB008DBE94 /* order-pic01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "order-pic01.png"; sourceTree = "<group>"; };
+		166C8ED51DEFB9AB008DBE94 /* order-pic02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "order-pic02.png"; sourceTree = "<group>"; };
+		166C8ED61DEFB9AB008DBE94 /* order-pic03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "order-pic03.png"; sourceTree = "<group>"; };
+		166C8ED71DEFB9AB008DBE94 /* order-pic04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "order-pic04.png"; sourceTree = "<group>"; };
+		166C8ED81DEFB9AB008DBE94 /* picture-detail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "picture-detail.png"; sourceTree = "<group>"; };
+		166C8ED91DEFB9AB008DBE94 /* portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = portrait.png; sourceTree = "<group>"; };
+		166C8EDA1DEFB9AB008DBE94 /* shoppingcar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shoppingcar.png; sourceTree = "<group>"; };
+		166C8EDB1DEFB9AB008DBE94 /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpg; sourceTree = "<group>"; };
+		166C8EDC1DEFB9AB008DBE94 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		166C8EDE1DEFB9AB008DBE94 /* app.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = app.js; sourceTree = "<group>"; };
+		166C8EDF1DEFB9AB008DBE94 /* bootstrap.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = bootstrap.js; sourceTree = "<group>"; };
+		166C8EE01DEFB9AB008DBE94 /* CITY-JSON.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "CITY-JSON.js"; sourceTree = "<group>"; };
+		166C8EE21DEFB9AB008DBE94 /* addressAddCtrl.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = addressAddCtrl.js; sourceTree = "<group>"; };
+		166C8EE31DEFB9AB008DBE94 /* AddressMyCtrl.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = AddressMyCtrl.js; sourceTree = "<group>"; };
+		166C8EE41DEFB9AB008DBE94 /* CartCtrl.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = CartCtrl.js; sourceTree = "<group>"; };
+		166C8EE51DEFB9AB008DBE94 /* commentCtrl.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = commentCtrl.js; sourceTree = "<group>"; };
+		166C8EE61DEFB9AB008DBE94 /* controllers.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = controllers.js; sourceTree = "<group>"; };
+		166C8EE71DEFB9AB008DBE94 /* DiscoveryCtrl.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = DiscoveryCtrl.js; sourceTree = "<group>"; };
+		166C8EE81DEFB9AB008DBE94 /* DiscoveryDetailCtrl.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = DiscoveryDetailCtrl.js; sourceTree = "<group>"; };
+		166C8EE91DEFB9AB008DBE94 /* GoodDetailCtrl.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = GoodDetailCtrl.js; sourceTree = "<group>"; };
+		166C8EEA1DEFB9AB008DBE94 /* MallCtrl.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = MallCtrl.js; sourceTree = "<group>"; };
+		166C8EEB1DEFB9AB008DBE94 /* myCarCtrl.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = myCarCtrl.js; sourceTree = "<group>"; };
+		166C8EEC1DEFB9AB008DBE94 /* myOrderCtrl.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = myOrderCtrl.js; sourceTree = "<group>"; };
+		166C8EED1DEFB9AB008DBE94 /* OrderCtrl.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = OrderCtrl.js; sourceTree = "<group>"; };
+		166C8EEE1DEFB9AB008DBE94 /* orderInfoCtrl.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = orderInfoCtrl.js; sourceTree = "<group>"; };
+		166C8EEF1DEFB9AB008DBE94 /* pictureDetailCtrl.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = pictureDetailCtrl.js; sourceTree = "<group>"; };
+		166C8EF01DEFB9AB008DBE94 /* productListCtrl.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = productListCtrl.js; sourceTree = "<group>"; };
+		166C8EF11DEFB9AB008DBE94 /* productParasDetailCtrl.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = productParasDetailCtrl.js; sourceTree = "<group>"; };
+		166C8EF21DEFB9AB008DBE94 /* SelectProvinceCtrl.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = SelectProvinceCtrl.js; sourceTree = "<group>"; };
+		166C8EF31DEFB9AB008DBE94 /* ServiceOrderCtrl.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ServiceOrderCtrl.js; sourceTree = "<group>"; };
+		166C8EF41DEFB9AB008DBE94 /* ServiceOrderDetailCtrl.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ServiceOrderDetailCtrl.js; sourceTree = "<group>"; };
+		166C8EF51DEFB9AB008DBE94 /* StarterCtrl.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = StarterCtrl.js; sourceTree = "<group>"; };
+		166C8EF61DEFB9AB008DBE94 /* sureOrderCtrl.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = sureOrderCtrl.js; sourceTree = "<group>"; };
+		166C8EF71DEFB9AB008DBE94 /* css.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = css.js; sourceTree = "<group>"; };
+		166C8EF91DEFB9AB008DBE94 /* actBuyCount.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = actBuyCount.js; sourceTree = "<group>"; };
+		166C8EFA1DEFB9AB008DBE94 /* addtoCart.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = addtoCart.js; sourceTree = "<group>"; };
+		166C8EFB1DEFB9AB008DBE94 /* cancleOrder.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = cancleOrder.js; sourceTree = "<group>"; };
+		166C8EFC1DEFB9AB008DBE94 /* cartNum.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = cartNum.js; sourceTree = "<group>"; };
+		166C8EFD1DEFB9AB008DBE94 /* deleteOrder.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = deleteOrder.js; sourceTree = "<group>"; };
+		166C8EFE1DEFB9AB008DBE94 /* directives.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = directives.js; sourceTree = "<group>"; };
+		166C8EFF1DEFB9AB008DBE94 /* editCart.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = editCart.js; sourceTree = "<group>"; };
+		166C8F001DEFB9AB008DBE94 /* errorSrc.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = errorSrc.js; sourceTree = "<group>"; };
+		166C8F011DEFB9AB008DBE94 /* getAddressForm.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = getAddressForm.js; sourceTree = "<group>"; };
+		166C8F021DEFB9AB008DBE94 /* goBackMy.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = goBackMy.js; sourceTree = "<group>"; };
+		166C8F031DEFB9AB008DBE94 /* NewscommentDirective.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = NewscommentDirective.js; sourceTree = "<group>"; };
+		166C8F041DEFB9AB008DBE94 /* NewslistDirective.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = NewslistDirective.js; sourceTree = "<group>"; };
+		166C8F051DEFB9AB008DBE94 /* operateCount.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = operateCount.js; sourceTree = "<group>"; };
+		166C8F061DEFB9AB008DBE94 /* postAddressForm.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = postAddressForm.js; sourceTree = "<group>"; };
+		166C8F071DEFB9AB008DBE94 /* score.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = score.js; sourceTree = "<group>"; };
+		166C8F081DEFB9AB008DBE94 /* scoreStar.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = scoreStar.js; sourceTree = "<group>"; };
+		166C8F091DEFB9AB008DBE94 /* ServiceorderDirective.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ServiceorderDirective.js; sourceTree = "<group>"; };
+		166C8F0A1DEFB9AB008DBE94 /* ShareDirective.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ShareDirective.js; sourceTree = "<group>"; };
+		166C8F0B1DEFB9AB008DBE94 /* sureReceive.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = sureReceive.js; sourceTree = "<group>"; };
+		166C8F0D1DEFB9AB008DBE94 /* filters.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = filters.js; sourceTree = "<group>"; };
+		166C8F0E1DEFB9AB008DBE94 /* toImgUrl.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = toImgUrl.js; sourceTree = "<group>"; };
+		166C8F0F1DEFB9AB008DBE94 /* linkAddress.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = linkAddress.js; sourceTree = "<group>"; };
+		166C8F101DEFB9AB008DBE94 /* main-development.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "main-development.js"; sourceTree = "<group>"; };
+		166C8F111DEFB9AB008DBE94 /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
+		166C8F121DEFB9AB008DBE94 /* require.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = require.js; sourceTree = "<group>"; };
+		166C8F131DEFB9AB008DBE94 /* require.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = require.min.js; sourceTree = "<group>"; };
+		166C8F151DEFB9AB008DBE94 /* CarWashRequest.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = CarWashRequest.js; sourceTree = "<group>"; };
+		166C8F161DEFB9AB008DBE94 /* confirmPopu.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = confirmPopu.js; sourceTree = "<group>"; };
+		166C8F171DEFB9AB008DBE94 /* customeLoading.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = customeLoading.js; sourceTree = "<group>"; };
+		166C8F181DEFB9AB008DBE94 /* customePopu.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = customePopu.js; sourceTree = "<group>"; };
+		166C8F191DEFB9AB008DBE94 /* DetailService.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = DetailService.js; sourceTree = "<group>"; };
+		166C8F1A1DEFB9AB008DBE94 /* DiscoveryService.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = DiscoveryService.js; sourceTree = "<group>"; };
+		166C8F1B1DEFB9AB008DBE94 /* getAddress.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = getAddress.js; sourceTree = "<group>"; };
+		166C8F1C1DEFB9AB008DBE94 /* getAddressData.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = getAddressData.js; sourceTree = "<group>"; };
+		166C8F1D1DEFB9AB008DBE94 /* getClassName.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = getClassName.js; sourceTree = "<group>"; };
+		166C8F1E1DEFB9AB008DBE94 /* getData.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = getData.js; sourceTree = "<group>"; };
+		166C8F1F1DEFB9AB008DBE94 /* getDefaultAddress.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = getDefaultAddress.js; sourceTree = "<group>"; };
+		166C8F201DEFB9AB008DBE94 /* getfield.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = getfield.js; sourceTree = "<group>"; };
+		166C8F211DEFB9AB008DBE94 /* getFreightage.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = getFreightage.js; sourceTree = "<group>"; };
+		166C8F221DEFB9AB008DBE94 /* getGoodList.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = getGoodList.js; sourceTree = "<group>"; };
+		166C8F231DEFB9AB008DBE94 /* getId.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = getId.js; sourceTree = "<group>"; };
+		166C8F241DEFB9AB008DBE94 /* getTokenR.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = getTokenR.js; sourceTree = "<group>"; };
+		166C8F251DEFB9AB008DBE94 /* GoodDetailService.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = GoodDetailService.js; sourceTree = "<group>"; };
+		166C8F261DEFB9AB008DBE94 /* goOperateAddress.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = goOperateAddress.js; sourceTree = "<group>"; };
+		166C8F271DEFB9AB008DBE94 /* operateUrl.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = operateUrl.js; sourceTree = "<group>"; };
+		166C8F281DEFB9AB008DBE94 /* orderPayedService.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = orderPayedService.js; sourceTree = "<group>"; };
+		166C8F291DEFB9AB008DBE94 /* orderUnpayService.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = orderUnpayService.js; sourceTree = "<group>"; };
+		166C8F2A1DEFB9AB008DBE94 /* sendUrl.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = sendUrl.js; sourceTree = "<group>"; };
+		166C8F2B1DEFB9AB008DBE94 /* services.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = services.js; sourceTree = "<group>"; };
+		166C8F2C1DEFB9AB008DBE94 /* sureOrderService.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = sureOrderService.js; sourceTree = "<group>"; };
+		166C8F2D1DEFB9AB008DBE94 /* urlData.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = urlData.js; sourceTree = "<group>"; };
+		166C8F2E1DEFB9AB008DBE94 /* tabSlideBox.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = tabSlideBox.js; sourceTree = "<group>"; };
+		166C8F321DEFB9AB008DBE94 /* ionic.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = ionic.css; sourceTree = "<group>"; };
+		166C8F331DEFB9AB008DBE94 /* ionic.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = ionic.min.css; sourceTree = "<group>"; };
+		166C8F351DEFB9AB008DBE94 /* ionicons.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = ionicons.eot; sourceTree = "<group>"; };
+		166C8F361DEFB9AB008DBE94 /* ionicons.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ionicons.svg; sourceTree = "<group>"; };
+		166C8F371DEFB9AB008DBE94 /* ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ionicons.ttf; sourceTree = "<group>"; };
+		166C8F381DEFB9AB008DBE94 /* ionicons.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = ionicons.woff; sourceTree = "<group>"; };
+		166C8F3B1DEFB9AB008DBE94 /* angular-animate.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "angular-animate.js"; sourceTree = "<group>"; };
+		166C8F3C1DEFB9AB008DBE94 /* angular-animate.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "angular-animate.min.js"; sourceTree = "<group>"; };
+		166C8F3D1DEFB9AB008DBE94 /* angular-resource.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "angular-resource.js"; sourceTree = "<group>"; };
+		166C8F3E1DEFB9AB008DBE94 /* angular-resource.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "angular-resource.min.js"; sourceTree = "<group>"; };
+		166C8F3F1DEFB9AB008DBE94 /* angular-sanitize.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "angular-sanitize.js"; sourceTree = "<group>"; };
+		166C8F401DEFB9AB008DBE94 /* angular-sanitize.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "angular-sanitize.min.js"; sourceTree = "<group>"; };
+		166C8F411DEFB9AB008DBE94 /* angular.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = angular.js; sourceTree = "<group>"; };
+		166C8F421DEFB9AB008DBE94 /* angular.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = angular.min.js; sourceTree = "<group>"; };
+		166C8F441DEFB9AB008DBE94 /* angular-ui-router.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "angular-ui-router.js"; sourceTree = "<group>"; };
+		166C8F451DEFB9AB008DBE94 /* angular-ui-router.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "angular-ui-router.min.js"; sourceTree = "<group>"; };
+		166C8F461DEFB9AB008DBE94 /* ionic-angular.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "ionic-angular.js"; sourceTree = "<group>"; };
+		166C8F471DEFB9AB008DBE94 /* ionic-angular.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "ionic-angular.min.js"; sourceTree = "<group>"; };
+		166C8F481DEFB9AB008DBE94 /* ionic.bundle.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ionic.bundle.js; sourceTree = "<group>"; };
+		166C8F491DEFB9AB008DBE94 /* ionic.bundle.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ionic.bundle.min.js; sourceTree = "<group>"; };
+		166C8F4A1DEFB9AB008DBE94 /* ionic.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ionic.js; sourceTree = "<group>"; };
+		166C8F4B1DEFB9AB008DBE94 /* ionic.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ionic.min.js; sourceTree = "<group>"; };
+		166C8F4C1DEFB9AB008DBE94 /* version.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = version.json; sourceTree = "<group>"; };
+		166C8F4D1DEFB9AB008DBE94 /* plugin-function.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "plugin-function.js"; sourceTree = "<group>"; };
+		166C8F511DEFB9AB008DBE94 /* GetData.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = GetData.js; sourceTree = "<group>"; };
+		166C8F541DEFB9AB008DBE94 /* GoBack.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = GoBack.js; sourceTree = "<group>"; };
+		166C8F571DEFB9AB008DBE94 /* GoSerPay.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = GoSerPay.js; sourceTree = "<group>"; };
+		166C8F5A1DEFB9AB008DBE94 /* GoToPay.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = GoToPay.js; sourceTree = "<group>"; };
+		166C8F5D1DEFB9AB008DBE94 /* MallPrompt.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = MallPrompt.js; sourceTree = "<group>"; };
+		166C8F601DEFB9AB008DBE94 /* Share.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Share.js; sourceTree = "<group>"; };
+		166C8F631DEFB9AB008DBE94 /* TabbarVisibility.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = TabbarVisibility.js; sourceTree = "<group>"; };
+		166C8F661DEFB9AB008DBE94 /* share.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = share.html; sourceTree = "<group>"; };
+		166C8F681DEFB9AB008DBE94 /* discovery-comment.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "discovery-comment.html"; sourceTree = "<group>"; };
+		166C8F691DEFB9AB008DBE94 /* discovery-detail.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "discovery-detail.html"; sourceTree = "<group>"; };
+		166C8F6A1DEFB9AB008DBE94 /* discovery-item.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "discovery-item.html"; sourceTree = "<group>"; };
+		166C8F6B1DEFB9AB008DBE94 /* discovery.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = discovery.html; sourceTree = "<group>"; };
+		166C8F6C1DEFB9AB008DBE94 /* share.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = share.html; sourceTree = "<group>"; };
+		166C8F6E1DEFB9AB008DBE94 /* address-add.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "address-add.html"; sourceTree = "<group>"; };
+		166C8F6F1DEFB9AB008DBE94 /* address-my.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "address-my.html"; sourceTree = "<group>"; };
+		166C8F701DEFB9AB008DBE94 /* comment.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = comment.html; sourceTree = "<group>"; };
+		166C8F711DEFB9AB008DBE94 /* detail.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = detail.html; sourceTree = "<group>"; };
+		166C8F721DEFB9AB008DBE94 /* good-item.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "good-item.html"; sourceTree = "<group>"; };
+		166C8F731DEFB9AB008DBE94 /* mall.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = mall.html; sourceTree = "<group>"; };
+		166C8F741DEFB9AB008DBE94 /* my-car.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "my-car.html"; sourceTree = "<group>"; };
+		166C8F751DEFB9AB008DBE94 /* myorder-template.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "myorder-template.html"; sourceTree = "<group>"; };
+		166C8F761DEFB9AB008DBE94 /* myorder.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = myorder.html; sourceTree = "<group>"; };
+		166C8F771DEFB9AB008DBE94 /* order-info.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "order-info.html"; sourceTree = "<group>"; };
+		166C8F781DEFB9AB008DBE94 /* picture-detail.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "picture-detail.html"; sourceTree = "<group>"; };
+		166C8F791DEFB9AB008DBE94 /* product-list.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "product-list.html"; sourceTree = "<group>"; };
+		166C8F7A1DEFB9AB008DBE94 /* product-paras.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "product-paras.html"; sourceTree = "<group>"; };
+		166C8F7B1DEFB9AB008DBE94 /* select-city.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "select-city.html"; sourceTree = "<group>"; };
+		166C8F7C1DEFB9AB008DBE94 /* select-district.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "select-district.html"; sourceTree = "<group>"; };
+		166C8F7D1DEFB9AB008DBE94 /* select-province.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "select-province.html"; sourceTree = "<group>"; };
+		166C8F7F1DEFB9AB008DBE94 /* service-order-fwcont.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "service-order-fwcont.html"; sourceTree = "<group>"; };
+		166C8F801DEFB9AB008DBE94 /* service-order-list.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "service-order-list.html"; sourceTree = "<group>"; };
+		166C8F811DEFB9AB008DBE94 /* service-order-nopay.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "service-order-nopay.html"; sourceTree = "<group>"; };
+		166C8F821DEFB9AB008DBE94 /* service-order-sccont.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "service-order-sccont.html"; sourceTree = "<group>"; };
+		166C8F831DEFB9AB008DBE94 /* service-order.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "service-order.html"; sourceTree = "<group>"; };
+		166C8F841DEFB9AB008DBE94 /* sure-order.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "sure-order.html"; sourceTree = "<group>"; };
+		166C8F861DEFB9AB008DBE94 /* about-us.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "about-us.html"; sourceTree = "<group>"; };
+		166C8F871DEFB9AB008DBE94 /* card-agreement.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "card-agreement.html"; sourceTree = "<group>"; };
+		166C8F881DEFB9AB008DBE94 /* service-agreement.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "service-agreement.html"; sourceTree = "<group>"; };
+		166C8F891DEFB9AB008DBE94 /* share.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = share.html; sourceTree = "<group>"; };
+		166C8F8B1DEFB9AB008DBE94 /* build.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = build.js; sourceTree = "<group>"; };
+		166C8F8C1DEFB9AB008DBE94 /* r.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = r.js; sourceTree = "<group>"; };
+		166C8F8D1DEFB9AB008DBE94 /* styles.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = styles.css; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +512,7 @@
 		160E27061DE7D49B00540992 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				166C8E961DEFB9AB008DBE94 /* www */,
 				160E270A1DE7D49B00540992 /* AppDelegate.h */,
 				160E270B1DE7D49B00540992 /* AppDelegate.m */,
 				160E270D1DE7D49B00540992 /* MasterViewController.h */,
@@ -143,6 +552,561 @@
 				160E27311DE7D49B00540992 /* Info.plist */,
 			);
 			path = DemoUITests;
+			sourceTree = "<group>";
+		};
+		166C8E961DEFB9AB008DBE94 /* www */ = {
+			isa = PBXGroup;
+			children = (
+				166C8E971DEFB9AB008DBE94 /* cordova-js-src */,
+				166C8E9A1DEFB9AB008DBE94 /* cordova.js */,
+				166C8E9B1DEFB9AB008DBE94 /* cordova_plugins.js */,
+				166C8E9C1DEFB9AB008DBE94 /* css */,
+				166C8EB41DEFB9AB008DBE94 /* images */,
+				166C8EDC1DEFB9AB008DBE94 /* index.html */,
+				166C8EDD1DEFB9AB008DBE94 /* js */,
+				166C8F2F1DEFB9AB008DBE94 /* lib */,
+				166C8F4D1DEFB9AB008DBE94 /* plugin-function.js */,
+				166C8F4E1DEFB9AB008DBE94 /* plugins */,
+				166C8F641DEFB9AB008DBE94 /* templates */,
+				166C8F8A1DEFB9AB008DBE94 /* tools */,
+			);
+			path = www;
+			sourceTree = "<group>";
+		};
+		166C8E971DEFB9AB008DBE94 /* cordova-js-src */ = {
+			isa = PBXGroup;
+			children = (
+				166C8E981DEFB9AB008DBE94 /* exec.js */,
+				166C8E991DEFB9AB008DBE94 /* platform.js */,
+			);
+			path = "cordova-js-src";
+			sourceTree = "<group>";
+		};
+		166C8E9C1DEFB9AB008DBE94 /* css */ = {
+			isa = PBXGroup;
+			children = (
+				166C8E9D1DEFB9AB008DBE94 /* common.css */,
+				166C8E9E1DEFB9AB008DBE94 /* discovery */,
+				166C8EA11DEFB9AB008DBE94 /* mall */,
+				166C8EAC1DEFB9AB008DBE94 /* ohter */,
+				166C8EAE1DEFB9AB008DBE94 /* xyy-icon */,
+			);
+			path = css;
+			sourceTree = "<group>";
+		};
+		166C8E9E1DEFB9AB008DBE94 /* discovery */ = {
+			isa = PBXGroup;
+			children = (
+				166C8E9F1DEFB9AB008DBE94 /* discovery-detail.css */,
+				166C8EA01DEFB9AB008DBE94 /* discovery.css */,
+			);
+			path = discovery;
+			sourceTree = "<group>";
+		};
+		166C8EA11DEFB9AB008DBE94 /* mall */ = {
+			isa = PBXGroup;
+			children = (
+				166C8EA21DEFB9AB008DBE94 /* address.css */,
+				166C8EA31DEFB9AB008DBE94 /* detail.css */,
+				166C8EA41DEFB9AB008DBE94 /* mall-common.css */,
+				166C8EA51DEFB9AB008DBE94 /* mall.css */,
+				166C8EA61DEFB9AB008DBE94 /* my-car.css */,
+				166C8EA71DEFB9AB008DBE94 /* order.css */,
+				166C8EA81DEFB9AB008DBE94 /* serviceorder */,
+				166C8EAA1DEFB9AB008DBE94 /* sure-order.css */,
+				166C8EAB1DEFB9AB008DBE94 /* tabSlideBox.css */,
+			);
+			path = mall;
+			sourceTree = "<group>";
+		};
+		166C8EA81DEFB9AB008DBE94 /* serviceorder */ = {
+			isa = PBXGroup;
+			children = (
+				166C8EA91DEFB9AB008DBE94 /* serviceorder.css */,
+			);
+			path = serviceorder;
+			sourceTree = "<group>";
+		};
+		166C8EAC1DEFB9AB008DBE94 /* ohter */ = {
+			isa = PBXGroup;
+			children = (
+				166C8EAD1DEFB9AB008DBE94 /* other.css */,
+			);
+			path = ohter;
+			sourceTree = "<group>";
+		};
+		166C8EAE1DEFB9AB008DBE94 /* xyy-icon */ = {
+			isa = PBXGroup;
+			children = (
+				166C8EAF1DEFB9AB008DBE94 /* iconfont.css */,
+				166C8EB01DEFB9AB008DBE94 /* iconfont.eot */,
+				166C8EB11DEFB9AB008DBE94 /* iconfont.svg */,
+				166C8EB21DEFB9AB008DBE94 /* iconfont.ttf */,
+				166C8EB31DEFB9AB008DBE94 /* iconfont.woff */,
+			);
+			path = "xyy-icon";
+			sourceTree = "<group>";
+		};
+		166C8EB41DEFB9AB008DBE94 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				166C8EB51DEFB9AB008DBE94 /* address.png */,
+				166C8EB61DEFB9AB008DBE94 /* arrow-right.png */,
+				166C8EB71DEFB9AB008DBE94 /* back-big.png */,
+				166C8EB81DEFB9AB008DBE94 /* back.png */,
+				166C8EB91DEFB9AB008DBE94 /* comment.png */,
+				166C8EBA1DEFB9AB008DBE94 /* defaultImg.png */,
+				166C8EBB1DEFB9AB008DBE94 /* fworder-tel.png */,
+				166C8EBC1DEFB9AB008DBE94 /* fworder-title.png */,
+				166C8EBD1DEFB9AB008DBE94 /* good.png */,
+				166C8EBE1DEFB9AB008DBE94 /* icon-dx.png */,
+				166C8EBF1DEFB9AB008DBE94 /* icon-pyq.png */,
+				166C8EC01DEFB9AB008DBE94 /* icon-wb.png */,
+				166C8EC11DEFB9AB008DBE94 /* icon-wx.png */,
+				166C8EC21DEFB9AB008DBE94 /* imgerror.png */,
+				166C8EC31DEFB9AB008DBE94 /* laud.png */,
+				166C8EC41DEFB9AB008DBE94 /* like.png */,
+				166C8EC51DEFB9AB008DBE94 /* likei-ac.png */,
+				166C8EC61DEFB9AB008DBE94 /* list.png */,
+				166C8EC71DEFB9AB008DBE94 /* main_banner.png */,
+				166C8EC81DEFB9AB008DBE94 /* main_banner2.png */,
+				166C8EC91DEFB9AB008DBE94 /* order */,
+				166C8ED41DEFB9AB008DBE94 /* order-pic01.png */,
+				166C8ED51DEFB9AB008DBE94 /* order-pic02.png */,
+				166C8ED61DEFB9AB008DBE94 /* order-pic03.png */,
+				166C8ED71DEFB9AB008DBE94 /* order-pic04.png */,
+				166C8ED81DEFB9AB008DBE94 /* picture-detail.png */,
+				166C8ED91DEFB9AB008DBE94 /* portrait.png */,
+				166C8EDA1DEFB9AB008DBE94 /* shoppingcar.png */,
+				166C8EDB1DEFB9AB008DBE94 /* test.jpg */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		166C8EC91DEFB9AB008DBE94 /* order */ = {
+			isa = PBXGroup;
+			children = (
+				166C8ECA1DEFB9AB008DBE94 /* closed-icon.png */,
+				166C8ECB1DEFB9AB008DBE94 /* fw-closed-icon.png */,
+				166C8ECC1DEFB9AB008DBE94 /* fw-pay-icon.png */,
+				166C8ECD1DEFB9AB008DBE94 /* fw-successed-payed-icon.png */,
+				166C8ECE1DEFB9AB008DBE94 /* fw-unpay_icon.png */,
+				166C8ECF1DEFB9AB008DBE94 /* payed-icon.png */,
+				166C8ED01DEFB9AB008DBE94 /* payed-send-icon.png */,
+				166C8ED11DEFB9AB008DBE94 /* successed-icon.png */,
+				166C8ED21DEFB9AB008DBE94 /* successed-payed-icon.png */,
+				166C8ED31DEFB9AB008DBE94 /* unpay-icon.png */,
+			);
+			path = order;
+			sourceTree = "<group>";
+		};
+		166C8EDD1DEFB9AB008DBE94 /* js */ = {
+			isa = PBXGroup;
+			children = (
+				166C8EDE1DEFB9AB008DBE94 /* app.js */,
+				166C8EDF1DEFB9AB008DBE94 /* bootstrap.js */,
+				166C8EE01DEFB9AB008DBE94 /* CITY-JSON.js */,
+				166C8EE11DEFB9AB008DBE94 /* controllers */,
+				166C8EF71DEFB9AB008DBE94 /* css.js */,
+				166C8EF81DEFB9AB008DBE94 /* directives */,
+				166C8F0C1DEFB9AB008DBE94 /* filters */,
+				166C8F0F1DEFB9AB008DBE94 /* linkAddress.js */,
+				166C8F101DEFB9AB008DBE94 /* main-development.js */,
+				166C8F111DEFB9AB008DBE94 /* main.js */,
+				166C8F121DEFB9AB008DBE94 /* require.js */,
+				166C8F131DEFB9AB008DBE94 /* require.min.js */,
+				166C8F141DEFB9AB008DBE94 /* services */,
+				166C8F2E1DEFB9AB008DBE94 /* tabSlideBox.js */,
+			);
+			path = js;
+			sourceTree = "<group>";
+		};
+		166C8EE11DEFB9AB008DBE94 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				166C8EE21DEFB9AB008DBE94 /* addressAddCtrl.js */,
+				166C8EE31DEFB9AB008DBE94 /* AddressMyCtrl.js */,
+				166C8EE41DEFB9AB008DBE94 /* CartCtrl.js */,
+				166C8EE51DEFB9AB008DBE94 /* commentCtrl.js */,
+				166C8EE61DEFB9AB008DBE94 /* controllers.js */,
+				166C8EE71DEFB9AB008DBE94 /* DiscoveryCtrl.js */,
+				166C8EE81DEFB9AB008DBE94 /* DiscoveryDetailCtrl.js */,
+				166C8EE91DEFB9AB008DBE94 /* GoodDetailCtrl.js */,
+				166C8EEA1DEFB9AB008DBE94 /* MallCtrl.js */,
+				166C8EEB1DEFB9AB008DBE94 /* myCarCtrl.js */,
+				166C8EEC1DEFB9AB008DBE94 /* myOrderCtrl.js */,
+				166C8EED1DEFB9AB008DBE94 /* OrderCtrl.js */,
+				166C8EEE1DEFB9AB008DBE94 /* orderInfoCtrl.js */,
+				166C8EEF1DEFB9AB008DBE94 /* pictureDetailCtrl.js */,
+				166C8EF01DEFB9AB008DBE94 /* productListCtrl.js */,
+				166C8EF11DEFB9AB008DBE94 /* productParasDetailCtrl.js */,
+				166C8EF21DEFB9AB008DBE94 /* SelectProvinceCtrl.js */,
+				166C8EF31DEFB9AB008DBE94 /* ServiceOrderCtrl.js */,
+				166C8EF41DEFB9AB008DBE94 /* ServiceOrderDetailCtrl.js */,
+				166C8EF51DEFB9AB008DBE94 /* StarterCtrl.js */,
+				166C8EF61DEFB9AB008DBE94 /* sureOrderCtrl.js */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		166C8EF81DEFB9AB008DBE94 /* directives */ = {
+			isa = PBXGroup;
+			children = (
+				166C8EF91DEFB9AB008DBE94 /* actBuyCount.js */,
+				166C8EFA1DEFB9AB008DBE94 /* addtoCart.js */,
+				166C8EFB1DEFB9AB008DBE94 /* cancleOrder.js */,
+				166C8EFC1DEFB9AB008DBE94 /* cartNum.js */,
+				166C8EFD1DEFB9AB008DBE94 /* deleteOrder.js */,
+				166C8EFE1DEFB9AB008DBE94 /* directives.js */,
+				166C8EFF1DEFB9AB008DBE94 /* editCart.js */,
+				166C8F001DEFB9AB008DBE94 /* errorSrc.js */,
+				166C8F011DEFB9AB008DBE94 /* getAddressForm.js */,
+				166C8F021DEFB9AB008DBE94 /* goBackMy.js */,
+				166C8F031DEFB9AB008DBE94 /* NewscommentDirective.js */,
+				166C8F041DEFB9AB008DBE94 /* NewslistDirective.js */,
+				166C8F051DEFB9AB008DBE94 /* operateCount.js */,
+				166C8F061DEFB9AB008DBE94 /* postAddressForm.js */,
+				166C8F071DEFB9AB008DBE94 /* score.js */,
+				166C8F081DEFB9AB008DBE94 /* scoreStar.js */,
+				166C8F091DEFB9AB008DBE94 /* ServiceorderDirective.js */,
+				166C8F0A1DEFB9AB008DBE94 /* ShareDirective.js */,
+				166C8F0B1DEFB9AB008DBE94 /* sureReceive.js */,
+			);
+			path = directives;
+			sourceTree = "<group>";
+		};
+		166C8F0C1DEFB9AB008DBE94 /* filters */ = {
+			isa = PBXGroup;
+			children = (
+				166C8F0D1DEFB9AB008DBE94 /* filters.js */,
+				166C8F0E1DEFB9AB008DBE94 /* toImgUrl.js */,
+			);
+			path = filters;
+			sourceTree = "<group>";
+		};
+		166C8F141DEFB9AB008DBE94 /* services */ = {
+			isa = PBXGroup;
+			children = (
+				166C8F151DEFB9AB008DBE94 /* CarWashRequest.js */,
+				166C8F161DEFB9AB008DBE94 /* confirmPopu.js */,
+				166C8F171DEFB9AB008DBE94 /* customeLoading.js */,
+				166C8F181DEFB9AB008DBE94 /* customePopu.js */,
+				166C8F191DEFB9AB008DBE94 /* DetailService.js */,
+				166C8F1A1DEFB9AB008DBE94 /* DiscoveryService.js */,
+				166C8F1B1DEFB9AB008DBE94 /* getAddress.js */,
+				166C8F1C1DEFB9AB008DBE94 /* getAddressData.js */,
+				166C8F1D1DEFB9AB008DBE94 /* getClassName.js */,
+				166C8F1E1DEFB9AB008DBE94 /* getData.js */,
+				166C8F1F1DEFB9AB008DBE94 /* getDefaultAddress.js */,
+				166C8F201DEFB9AB008DBE94 /* getfield.js */,
+				166C8F211DEFB9AB008DBE94 /* getFreightage.js */,
+				166C8F221DEFB9AB008DBE94 /* getGoodList.js */,
+				166C8F231DEFB9AB008DBE94 /* getId.js */,
+				166C8F241DEFB9AB008DBE94 /* getTokenR.js */,
+				166C8F251DEFB9AB008DBE94 /* GoodDetailService.js */,
+				166C8F261DEFB9AB008DBE94 /* goOperateAddress.js */,
+				166C8F271DEFB9AB008DBE94 /* operateUrl.js */,
+				166C8F281DEFB9AB008DBE94 /* orderPayedService.js */,
+				166C8F291DEFB9AB008DBE94 /* orderUnpayService.js */,
+				166C8F2A1DEFB9AB008DBE94 /* sendUrl.js */,
+				166C8F2B1DEFB9AB008DBE94 /* services.js */,
+				166C8F2C1DEFB9AB008DBE94 /* sureOrderService.js */,
+				166C8F2D1DEFB9AB008DBE94 /* urlData.js */,
+			);
+			path = services;
+			sourceTree = "<group>";
+		};
+		166C8F2F1DEFB9AB008DBE94 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				166C8F301DEFB9AB008DBE94 /* ionic */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		166C8F301DEFB9AB008DBE94 /* ionic */ = {
+			isa = PBXGroup;
+			children = (
+				166C8F311DEFB9AB008DBE94 /* css */,
+				166C8F341DEFB9AB008DBE94 /* fonts */,
+				166C8F391DEFB9AB008DBE94 /* js */,
+				166C8F4C1DEFB9AB008DBE94 /* version.json */,
+			);
+			path = ionic;
+			sourceTree = "<group>";
+		};
+		166C8F311DEFB9AB008DBE94 /* css */ = {
+			isa = PBXGroup;
+			children = (
+				166C8F321DEFB9AB008DBE94 /* ionic.css */,
+				166C8F331DEFB9AB008DBE94 /* ionic.min.css */,
+			);
+			path = css;
+			sourceTree = "<group>";
+		};
+		166C8F341DEFB9AB008DBE94 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				166C8F351DEFB9AB008DBE94 /* ionicons.eot */,
+				166C8F361DEFB9AB008DBE94 /* ionicons.svg */,
+				166C8F371DEFB9AB008DBE94 /* ionicons.ttf */,
+				166C8F381DEFB9AB008DBE94 /* ionicons.woff */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		166C8F391DEFB9AB008DBE94 /* js */ = {
+			isa = PBXGroup;
+			children = (
+				166C8F3A1DEFB9AB008DBE94 /* angular */,
+				166C8F431DEFB9AB008DBE94 /* angular-ui */,
+				166C8F461DEFB9AB008DBE94 /* ionic-angular.js */,
+				166C8F471DEFB9AB008DBE94 /* ionic-angular.min.js */,
+				166C8F481DEFB9AB008DBE94 /* ionic.bundle.js */,
+				166C8F491DEFB9AB008DBE94 /* ionic.bundle.min.js */,
+				166C8F4A1DEFB9AB008DBE94 /* ionic.js */,
+				166C8F4B1DEFB9AB008DBE94 /* ionic.min.js */,
+			);
+			path = js;
+			sourceTree = "<group>";
+		};
+		166C8F3A1DEFB9AB008DBE94 /* angular */ = {
+			isa = PBXGroup;
+			children = (
+				166C8F3B1DEFB9AB008DBE94 /* angular-animate.js */,
+				166C8F3C1DEFB9AB008DBE94 /* angular-animate.min.js */,
+				166C8F3D1DEFB9AB008DBE94 /* angular-resource.js */,
+				166C8F3E1DEFB9AB008DBE94 /* angular-resource.min.js */,
+				166C8F3F1DEFB9AB008DBE94 /* angular-sanitize.js */,
+				166C8F401DEFB9AB008DBE94 /* angular-sanitize.min.js */,
+				166C8F411DEFB9AB008DBE94 /* angular.js */,
+				166C8F421DEFB9AB008DBE94 /* angular.min.js */,
+			);
+			path = angular;
+			sourceTree = "<group>";
+		};
+		166C8F431DEFB9AB008DBE94 /* angular-ui */ = {
+			isa = PBXGroup;
+			children = (
+				166C8F441DEFB9AB008DBE94 /* angular-ui-router.js */,
+				166C8F451DEFB9AB008DBE94 /* angular-ui-router.min.js */,
+			);
+			path = "angular-ui";
+			sourceTree = "<group>";
+		};
+		166C8F4E1DEFB9AB008DBE94 /* plugins */ = {
+			isa = PBXGroup;
+			children = (
+				166C8F4F1DEFB9AB008DBE94 /* cordova-plugin-getdata */,
+				166C8F521DEFB9AB008DBE94 /* cordova-plugin-goback */,
+				166C8F551DEFB9AB008DBE94 /* cordova-plugin-goserpay */,
+				166C8F581DEFB9AB008DBE94 /* cordova-plugin-gotopay */,
+				166C8F5B1DEFB9AB008DBE94 /* cordova-plugin-mallprompt */,
+				166C8F5E1DEFB9AB008DBE94 /* cordova-plugin-share */,
+				166C8F611DEFB9AB008DBE94 /* cordova-plugin-tabbarvisibility */,
+			);
+			path = plugins;
+			sourceTree = "<group>";
+		};
+		166C8F4F1DEFB9AB008DBE94 /* cordova-plugin-getdata */ = {
+			isa = PBXGroup;
+			children = (
+				166C8F501DEFB9AB008DBE94 /* www */,
+			);
+			path = "cordova-plugin-getdata";
+			sourceTree = "<group>";
+		};
+		166C8F501DEFB9AB008DBE94 /* www */ = {
+			isa = PBXGroup;
+			children = (
+				166C8F511DEFB9AB008DBE94 /* GetData.js */,
+			);
+			path = www;
+			sourceTree = "<group>";
+		};
+		166C8F521DEFB9AB008DBE94 /* cordova-plugin-goback */ = {
+			isa = PBXGroup;
+			children = (
+				166C8F531DEFB9AB008DBE94 /* www */,
+			);
+			path = "cordova-plugin-goback";
+			sourceTree = "<group>";
+		};
+		166C8F531DEFB9AB008DBE94 /* www */ = {
+			isa = PBXGroup;
+			children = (
+				166C8F541DEFB9AB008DBE94 /* GoBack.js */,
+			);
+			path = www;
+			sourceTree = "<group>";
+		};
+		166C8F551DEFB9AB008DBE94 /* cordova-plugin-goserpay */ = {
+			isa = PBXGroup;
+			children = (
+				166C8F561DEFB9AB008DBE94 /* www */,
+			);
+			path = "cordova-plugin-goserpay";
+			sourceTree = "<group>";
+		};
+		166C8F561DEFB9AB008DBE94 /* www */ = {
+			isa = PBXGroup;
+			children = (
+				166C8F571DEFB9AB008DBE94 /* GoSerPay.js */,
+			);
+			path = www;
+			sourceTree = "<group>";
+		};
+		166C8F581DEFB9AB008DBE94 /* cordova-plugin-gotopay */ = {
+			isa = PBXGroup;
+			children = (
+				166C8F591DEFB9AB008DBE94 /* www */,
+			);
+			path = "cordova-plugin-gotopay";
+			sourceTree = "<group>";
+		};
+		166C8F591DEFB9AB008DBE94 /* www */ = {
+			isa = PBXGroup;
+			children = (
+				166C8F5A1DEFB9AB008DBE94 /* GoToPay.js */,
+			);
+			path = www;
+			sourceTree = "<group>";
+		};
+		166C8F5B1DEFB9AB008DBE94 /* cordova-plugin-mallprompt */ = {
+			isa = PBXGroup;
+			children = (
+				166C8F5C1DEFB9AB008DBE94 /* www */,
+			);
+			path = "cordova-plugin-mallprompt";
+			sourceTree = "<group>";
+		};
+		166C8F5C1DEFB9AB008DBE94 /* www */ = {
+			isa = PBXGroup;
+			children = (
+				166C8F5D1DEFB9AB008DBE94 /* MallPrompt.js */,
+			);
+			path = www;
+			sourceTree = "<group>";
+		};
+		166C8F5E1DEFB9AB008DBE94 /* cordova-plugin-share */ = {
+			isa = PBXGroup;
+			children = (
+				166C8F5F1DEFB9AB008DBE94 /* www */,
+			);
+			path = "cordova-plugin-share";
+			sourceTree = "<group>";
+		};
+		166C8F5F1DEFB9AB008DBE94 /* www */ = {
+			isa = PBXGroup;
+			children = (
+				166C8F601DEFB9AB008DBE94 /* Share.js */,
+			);
+			path = www;
+			sourceTree = "<group>";
+		};
+		166C8F611DEFB9AB008DBE94 /* cordova-plugin-tabbarvisibility */ = {
+			isa = PBXGroup;
+			children = (
+				166C8F621DEFB9AB008DBE94 /* www */,
+			);
+			path = "cordova-plugin-tabbarvisibility";
+			sourceTree = "<group>";
+		};
+		166C8F621DEFB9AB008DBE94 /* www */ = {
+			isa = PBXGroup;
+			children = (
+				166C8F631DEFB9AB008DBE94 /* TabbarVisibility.js */,
+			);
+			path = www;
+			sourceTree = "<group>";
+		};
+		166C8F641DEFB9AB008DBE94 /* templates */ = {
+			isa = PBXGroup;
+			children = (
+				166C8F651DEFB9AB008DBE94 /* directives */,
+				166C8F671DEFB9AB008DBE94 /* discovery */,
+				166C8F6D1DEFB9AB008DBE94 /* mall */,
+				166C8F851DEFB9AB008DBE94 /* other */,
+				166C8F891DEFB9AB008DBE94 /* share.html */,
+			);
+			path = templates;
+			sourceTree = "<group>";
+		};
+		166C8F651DEFB9AB008DBE94 /* directives */ = {
+			isa = PBXGroup;
+			children = (
+				166C8F661DEFB9AB008DBE94 /* share.html */,
+			);
+			path = directives;
+			sourceTree = "<group>";
+		};
+		166C8F671DEFB9AB008DBE94 /* discovery */ = {
+			isa = PBXGroup;
+			children = (
+				166C8F681DEFB9AB008DBE94 /* discovery-comment.html */,
+				166C8F691DEFB9AB008DBE94 /* discovery-detail.html */,
+				166C8F6A1DEFB9AB008DBE94 /* discovery-item.html */,
+				166C8F6B1DEFB9AB008DBE94 /* discovery.html */,
+				166C8F6C1DEFB9AB008DBE94 /* share.html */,
+			);
+			path = discovery;
+			sourceTree = "<group>";
+		};
+		166C8F6D1DEFB9AB008DBE94 /* mall */ = {
+			isa = PBXGroup;
+			children = (
+				166C8F6E1DEFB9AB008DBE94 /* address-add.html */,
+				166C8F6F1DEFB9AB008DBE94 /* address-my.html */,
+				166C8F701DEFB9AB008DBE94 /* comment.html */,
+				166C8F711DEFB9AB008DBE94 /* detail.html */,
+				166C8F721DEFB9AB008DBE94 /* good-item.html */,
+				166C8F731DEFB9AB008DBE94 /* mall.html */,
+				166C8F741DEFB9AB008DBE94 /* my-car.html */,
+				166C8F751DEFB9AB008DBE94 /* myorder-template.html */,
+				166C8F761DEFB9AB008DBE94 /* myorder.html */,
+				166C8F771DEFB9AB008DBE94 /* order-info.html */,
+				166C8F781DEFB9AB008DBE94 /* picture-detail.html */,
+				166C8F791DEFB9AB008DBE94 /* product-list.html */,
+				166C8F7A1DEFB9AB008DBE94 /* product-paras.html */,
+				166C8F7B1DEFB9AB008DBE94 /* select-city.html */,
+				166C8F7C1DEFB9AB008DBE94 /* select-district.html */,
+				166C8F7D1DEFB9AB008DBE94 /* select-province.html */,
+				166C8F7E1DEFB9AB008DBE94 /* serviceorder */,
+				166C8F841DEFB9AB008DBE94 /* sure-order.html */,
+			);
+			path = mall;
+			sourceTree = "<group>";
+		};
+		166C8F7E1DEFB9AB008DBE94 /* serviceorder */ = {
+			isa = PBXGroup;
+			children = (
+				166C8F7F1DEFB9AB008DBE94 /* service-order-fwcont.html */,
+				166C8F801DEFB9AB008DBE94 /* service-order-list.html */,
+				166C8F811DEFB9AB008DBE94 /* service-order-nopay.html */,
+				166C8F821DEFB9AB008DBE94 /* service-order-sccont.html */,
+				166C8F831DEFB9AB008DBE94 /* service-order.html */,
+			);
+			path = serviceorder;
+			sourceTree = "<group>";
+		};
+		166C8F851DEFB9AB008DBE94 /* other */ = {
+			isa = PBXGroup;
+			children = (
+				166C8F861DEFB9AB008DBE94 /* about-us.html */,
+				166C8F871DEFB9AB008DBE94 /* card-agreement.html */,
+				166C8F881DEFB9AB008DBE94 /* service-agreement.html */,
+			);
+			path = other;
+			sourceTree = "<group>";
+		};
+		166C8F8A1DEFB9AB008DBE94 /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				166C8F8B1DEFB9AB008DBE94 /* build.js */,
+				166C8F8C1DEFB9AB008DBE94 /* r.js */,
+				166C8F8D1DEFB9AB008DBE94 /* styles.css */,
+			);
+			path = tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,9 +1218,213 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				166C8FCB1DEFB9AB008DBE94 /* app.js in Resources */,
+				166C8FC31DEFB9AB008DBE94 /* order-pic02.png in Resources */,
+				166C90261DEFB9AB008DBE94 /* angular-ui-router.js in Resources */,
+				166C8F931DEFB9AB008DBE94 /* discovery-detail.css in Resources */,
+				166C90411DEFB9AB008DBE94 /* good-item.html in Resources */,
+				166C8FC41DEFB9AB008DBE94 /* order-pic03.png in Resources */,
+				166C902D1DEFB9AB008DBE94 /* ionic.min.js in Resources */,
+				166C8FBF1DEFB9AB008DBE94 /* successed-icon.png in Resources */,
+				166C8FB21DEFB9AB008DBE94 /* laud.png in Resources */,
+				166C8FF11DEFB9AB008DBE94 /* postAddressForm.js in Resources */,
+				166C8FEA1DEFB9AB008DBE94 /* editCart.js in Resources */,
+				166C8FCA1DEFB9AB008DBE94 /* index.html in Resources */,
+				166C90201DEFB9AB008DBE94 /* angular-resource.js in Resources */,
+				166C8FBE1DEFB9AB008DBE94 /* payed-send-icon.png in Resources */,
+				166C8FF31DEFB9AB008DBE94 /* scoreStar.js in Resources */,
+				166C90491DEFB9AB008DBE94 /* product-paras.html in Resources */,
+				166C8FA91DEFB9AB008DBE94 /* defaultImg.png in Resources */,
+				166C8FD41DEFB9AB008DBE94 /* DiscoveryDetailCtrl.js in Resources */,
+				166C900D1DEFB9AB008DBE94 /* getTokenR.js in Resources */,
+				166C8FBD1DEFB9AB008DBE94 /* payed-icon.png in Resources */,
+				166C8FD71DEFB9AB008DBE94 /* myCarCtrl.js in Resources */,
 				160E271A1DE7D49B00540992 /* LaunchScreen.storyboard in Resources */,
+				166C8FFC1DEFB9AB008DBE94 /* require.js in Resources */,
+				166C8FAB1DEFB9AB008DBE94 /* fworder-title.png in Resources */,
+				166C8FCE1DEFB9AB008DBE94 /* addressAddCtrl.js in Resources */,
+				166C8FA31DEFB9AB008DBE94 /* iconfont.woff in Resources */,
+				166C8FFA1DEFB9AB008DBE94 /* main-development.js in Resources */,
+				166C90141DEFB9AB008DBE94 /* services.js in Resources */,
+				166C904C1DEFB9AB008DBE94 /* select-province.html in Resources */,
+				166C8FEB1DEFB9AB008DBE94 /* errorSrc.js in Resources */,
+				166C90251DEFB9AB008DBE94 /* angular.min.js in Resources */,
+				166C90331DEFB9AB008DBE94 /* GoToPay.js in Resources */,
+				166C8F991DEFB9AB008DBE94 /* my-car.css in Resources */,
+				166C904E1DEFB9AB008DBE94 /* service-order-list.html in Resources */,
+				166C8FED1DEFB9AB008DBE94 /* goBackMy.js in Resources */,
+				166C8FFD1DEFB9AB008DBE94 /* require.min.js in Resources */,
+				166C8FB51DEFB9AB008DBE94 /* list.png in Resources */,
+				166C8FA41DEFB9AB008DBE94 /* address.png in Resources */,
+				166C8FB11DEFB9AB008DBE94 /* imgerror.png in Resources */,
+				166C90001DEFB9AB008DBE94 /* customeLoading.js in Resources */,
+				166C8F901DEFB9AB008DBE94 /* cordova.js in Resources */,
+				166C8F921DEFB9AB008DBE94 /* common.css in Resources */,
+				166C90281DEFB9AB008DBE94 /* ionic-angular.js in Resources */,
+				166C90021DEFB9AB008DBE94 /* DetailService.js in Resources */,
+				166C8FC61DEFB9AB008DBE94 /* picture-detail.png in Resources */,
+				166C90221DEFB9AB008DBE94 /* angular-sanitize.js in Resources */,
+				166C8FBA1DEFB9AB008DBE94 /* fw-pay-icon.png in Resources */,
+				166C8FDA1DEFB9AB008DBE94 /* orderInfoCtrl.js in Resources */,
+				166C8FA81DEFB9AB008DBE94 /* comment.png in Resources */,
+				166C8FEE1DEFB9AB008DBE94 /* NewscommentDirective.js in Resources */,
+				166C8FC81DEFB9AB008DBE94 /* shoppingcar.png in Resources */,
+				166C8FD11DEFB9AB008DBE94 /* commentCtrl.js in Resources */,
+				166C8FE11DEFB9AB008DBE94 /* StarterCtrl.js in Resources */,
+				166C8FE51DEFB9AB008DBE94 /* addtoCart.js in Resources */,
+				166C901B1DEFB9AB008DBE94 /* ionicons.svg in Resources */,
+				166C90051DEFB9AB008DBE94 /* getAddressData.js in Resources */,
+				166C8FC11DEFB9AB008DBE94 /* unpay-icon.png in Resources */,
+				166C902C1DEFB9AB008DBE94 /* ionic.js in Resources */,
+				166C90091DEFB9AB008DBE94 /* getfield.js in Resources */,
+				166C902F1DEFB9AB008DBE94 /* plugin-function.js in Resources */,
+				166C8FC51DEFB9AB008DBE94 /* order-pic04.png in Resources */,
+				166C8F941DEFB9AB008DBE94 /* discovery.css in Resources */,
+				166C8FFF1DEFB9AB008DBE94 /* confirmPopu.js in Resources */,
+				166C8FFB1DEFB9AB008DBE94 /* main.js in Resources */,
+				166C8FF51DEFB9AB008DBE94 /* ShareDirective.js in Resources */,
+				166C8FD31DEFB9AB008DBE94 /* DiscoveryCtrl.js in Resources */,
+				166C90171DEFB9AB008DBE94 /* tabSlideBox.js in Resources */,
+				166C900F1DEFB9AB008DBE94 /* goOperateAddress.js in Resources */,
+				166C8FE81DEFB9AB008DBE94 /* deleteOrder.js in Resources */,
+				166C8FB81DEFB9AB008DBE94 /* closed-icon.png in Resources */,
+				166C90351DEFB9AB008DBE94 /* Share.js in Resources */,
+				166C8FD81DEFB9AB008DBE94 /* myOrderCtrl.js in Resources */,
+				166C8FE21DEFB9AB008DBE94 /* sureOrderCtrl.js in Resources */,
+				166C8FF81DEFB9AB008DBE94 /* toImgUrl.js in Resources */,
+				166C8FDB1DEFB9AB008DBE94 /* pictureDetailCtrl.js in Resources */,
+				166C90581DEFB9AB008DBE94 /* r.js in Resources */,
+				166C90451DEFB9AB008DBE94 /* myorder.html in Resources */,
+				166C90181DEFB9AB008DBE94 /* ionic.css in Resources */,
+				166C8FF91DEFB9AB008DBE94 /* linkAddress.js in Resources */,
+				166C90211DEFB9AB008DBE94 /* angular-resource.min.js in Resources */,
+				166C90361DEFB9AB008DBE94 /* TabbarVisibility.js in Resources */,
+				166C8FAE1DEFB9AB008DBE94 /* icon-pyq.png in Resources */,
+				166C8FD01DEFB9AB008DBE94 /* CartCtrl.js in Resources */,
+				166C8FFE1DEFB9AB008DBE94 /* CarWashRequest.js in Resources */,
+				166C8FF01DEFB9AB008DBE94 /* operateCount.js in Resources */,
+				166C8FA71DEFB9AB008DBE94 /* back.png in Resources */,
+				166C8FD21DEFB9AB008DBE94 /* controllers.js in Resources */,
+				166C90161DEFB9AB008DBE94 /* urlData.js in Resources */,
+				166C8FB61DEFB9AB008DBE94 /* main_banner.png in Resources */,
+				166C903B1DEFB9AB008DBE94 /* discovery.html in Resources */,
+				166C8FCD1DEFB9AB008DBE94 /* CITY-JSON.js in Resources */,
 				160E27171DE7D49B00540992 /* Assets.xcassets in Resources */,
+				166C8FC21DEFB9AB008DBE94 /* order-pic01.png in Resources */,
+				166C8FF71DEFB9AB008DBE94 /* filters.js in Resources */,
+				166C8FC71DEFB9AB008DBE94 /* portrait.png in Resources */,
+				166C90461DEFB9AB008DBE94 /* order-info.html in Resources */,
+				166C904B1DEFB9AB008DBE94 /* select-district.html in Resources */,
+				166C90151DEFB9AB008DBE94 /* sureOrderService.js in Resources */,
+				166C90501DEFB9AB008DBE94 /* service-order-sccont.html in Resources */,
+				166C8FE61DEFB9AB008DBE94 /* cancleOrder.js in Resources */,
+				166C8F9B1DEFB9AB008DBE94 /* serviceorder.css in Resources */,
+				166C8FF41DEFB9AB008DBE94 /* ServiceorderDirective.js in Resources */,
+				166C901C1DEFB9AB008DBE94 /* ionicons.ttf in Resources */,
+				166C90031DEFB9AB008DBE94 /* DiscoveryService.js in Resources */,
+				166C901D1DEFB9AB008DBE94 /* ionicons.woff in Resources */,
+				166C8FD91DEFB9AB008DBE94 /* OrderCtrl.js in Resources */,
+				166C8FD61DEFB9AB008DBE94 /* MallCtrl.js in Resources */,
+				166C90521DEFB9AB008DBE94 /* sure-order.html in Resources */,
+				166C8FE31DEFB9AB008DBE94 /* css.js in Resources */,
+				166C903F1DEFB9AB008DBE94 /* comment.html in Resources */,
+				166C900B1DEFB9AB008DBE94 /* getGoodList.js in Resources */,
+				166C904F1DEFB9AB008DBE94 /* service-order-nopay.html in Resources */,
+				166C90481DEFB9AB008DBE94 /* product-list.html in Resources */,
+				166C90311DEFB9AB008DBE94 /* GoBack.js in Resources */,
+				166C8FB01DEFB9AB008DBE94 /* icon-wx.png in Resources */,
+				166C8FAA1DEFB9AB008DBE94 /* fworder-tel.png in Resources */,
+				166C90191DEFB9AB008DBE94 /* ionic.min.css in Resources */,
+				166C900E1DEFB9AB008DBE94 /* GoodDetailService.js in Resources */,
+				166C90061DEFB9AB008DBE94 /* getClassName.js in Resources */,
+				166C901F1DEFB9AB008DBE94 /* angular-animate.min.js in Resources */,
+				166C8FDC1DEFB9AB008DBE94 /* productListCtrl.js in Resources */,
+				166C90531DEFB9AB008DBE94 /* about-us.html in Resources */,
+				166C8FE91DEFB9AB008DBE94 /* directives.js in Resources */,
+				166C900A1DEFB9AB008DBE94 /* getFreightage.js in Resources */,
+				166C8FA21DEFB9AB008DBE94 /* iconfont.ttf in Resources */,
+				166C8FF61DEFB9AB008DBE94 /* sureReceive.js in Resources */,
+				166C8FB41DEFB9AB008DBE94 /* likei-ac.png in Resources */,
+				166C90231DEFB9AB008DBE94 /* angular-sanitize.min.js in Resources */,
+				166C8FB91DEFB9AB008DBE94 /* fw-closed-icon.png in Resources */,
+				166C8FC01DEFB9AB008DBE94 /* successed-payed-icon.png in Resources */,
+				166C8F9F1DEFB9AB008DBE94 /* iconfont.css in Resources */,
+				166C90441DEFB9AB008DBE94 /* myorder-template.html in Resources */,
+				166C8F911DEFB9AB008DBE94 /* cordova_plugins.js in Resources */,
+				166C8F8F1DEFB9AB008DBE94 /* platform.js in Resources */,
+				166C90011DEFB9AB008DBE94 /* customePopu.js in Resources */,
+				166C90101DEFB9AB008DBE94 /* operateUrl.js in Resources */,
+				166C8F961DEFB9AB008DBE94 /* detail.css in Resources */,
+				166C90381DEFB9AB008DBE94 /* discovery-comment.html in Resources */,
+				166C903E1DEFB9AB008DBE94 /* address-my.html in Resources */,
+				166C90401DEFB9AB008DBE94 /* detail.html in Resources */,
+				166C903A1DEFB9AB008DBE94 /* discovery-item.html in Resources */,
+				166C90591DEFB9AB008DBE94 /* styles.css in Resources */,
+				166C90571DEFB9AB008DBE94 /* build.js in Resources */,
+				166C8FD51DEFB9AB008DBE94 /* GoodDetailCtrl.js in Resources */,
+				166C90271DEFB9AB008DBE94 /* angular-ui-router.min.js in Resources */,
+				166C902A1DEFB9AB008DBE94 /* ionic.bundle.js in Resources */,
+				166C90551DEFB9AB008DBE94 /* service-agreement.html in Resources */,
+				166C8FA61DEFB9AB008DBE94 /* back-big.png in Resources */,
+				166C903D1DEFB9AB008DBE94 /* address-add.html in Resources */,
+				166C90391DEFB9AB008DBE94 /* discovery-detail.html in Resources */,
+				166C8FCC1DEFB9AB008DBE94 /* bootstrap.js in Resources */,
 				160E27151DE7D49B00540992 /* Main.storyboard in Resources */,
+				166C8FDD1DEFB9AB008DBE94 /* productParasDetailCtrl.js in Resources */,
+				166C8F951DEFB9AB008DBE94 /* address.css in Resources */,
+				166C90471DEFB9AB008DBE94 /* picture-detail.html in Resources */,
+				166C90561DEFB9AB008DBE94 /* share.html in Resources */,
+				166C90421DEFB9AB008DBE94 /* mall.html in Resources */,
+				166C90111DEFB9AB008DBE94 /* orderPayedService.js in Resources */,
+				166C8FA51DEFB9AB008DBE94 /* arrow-right.png in Resources */,
+				166C90511DEFB9AB008DBE94 /* service-order.html in Resources */,
+				166C902E1DEFB9AB008DBE94 /* version.json in Resources */,
+				166C900C1DEFB9AB008DBE94 /* getId.js in Resources */,
+				166C90541DEFB9AB008DBE94 /* card-agreement.html in Resources */,
+				166C90071DEFB9AB008DBE94 /* getData.js in Resources */,
+				166C8F9C1DEFB9AB008DBE94 /* sure-order.css in Resources */,
+				166C8FBC1DEFB9AB008DBE94 /* fw-unpay_icon.png in Resources */,
+				166C8FAD1DEFB9AB008DBE94 /* icon-dx.png in Resources */,
+				166C904A1DEFB9AB008DBE94 /* select-city.html in Resources */,
+				166C901A1DEFB9AB008DBE94 /* ionicons.eot in Resources */,
+				166C90241DEFB9AB008DBE94 /* angular.js in Resources */,
+				166C90291DEFB9AB008DBE94 /* ionic-angular.min.js in Resources */,
+				166C903C1DEFB9AB008DBE94 /* share.html in Resources */,
+				166C8F9E1DEFB9AB008DBE94 /* other.css in Resources */,
+				166C8FAC1DEFB9AB008DBE94 /* good.png in Resources */,
+				166C904D1DEFB9AB008DBE94 /* service-order-fwcont.html in Resources */,
+				166C8FBB1DEFB9AB008DBE94 /* fw-successed-payed-icon.png in Resources */,
+				166C90131DEFB9AB008DBE94 /* sendUrl.js in Resources */,
+				166C8FE41DEFB9AB008DBE94 /* actBuyCount.js in Resources */,
+				166C8FDF1DEFB9AB008DBE94 /* ServiceOrderCtrl.js in Resources */,
+				166C8FEC1DEFB9AB008DBE94 /* getAddressForm.js in Resources */,
+				166C8FCF1DEFB9AB008DBE94 /* AddressMyCtrl.js in Resources */,
+				166C8FE01DEFB9AB008DBE94 /* ServiceOrderDetailCtrl.js in Resources */,
+				166C8F9A1DEFB9AB008DBE94 /* order.css in Resources */,
+				166C90341DEFB9AB008DBE94 /* MallPrompt.js in Resources */,
+				166C90081DEFB9AB008DBE94 /* getDefaultAddress.js in Resources */,
+				166C8F8E1DEFB9AB008DBE94 /* exec.js in Resources */,
+				166C8FB31DEFB9AB008DBE94 /* like.png in Resources */,
+				166C90301DEFB9AB008DBE94 /* GetData.js in Resources */,
+				166C8FDE1DEFB9AB008DBE94 /* SelectProvinceCtrl.js in Resources */,
+				166C8FEF1DEFB9AB008DBE94 /* NewslistDirective.js in Resources */,
+				166C901E1DEFB9AB008DBE94 /* angular-animate.js in Resources */,
+				166C8FE71DEFB9AB008DBE94 /* cartNum.js in Resources */,
+				166C90041DEFB9AB008DBE94 /* getAddress.js in Resources */,
+				166C8FA11DEFB9AB008DBE94 /* iconfont.svg in Resources */,
+				166C8F9D1DEFB9AB008DBE94 /* tabSlideBox.css in Resources */,
+				166C8FAF1DEFB9AB008DBE94 /* icon-wb.png in Resources */,
+				166C90371DEFB9AB008DBE94 /* share.html in Resources */,
+				166C90121DEFB9AB008DBE94 /* orderUnpayService.js in Resources */,
+				166C90321DEFB9AB008DBE94 /* GoSerPay.js in Resources */,
+				166C90431DEFB9AB008DBE94 /* my-car.html in Resources */,
+				166C8FC91DEFB9AB008DBE94 /* test.jpg in Resources */,
+				166C8F971DEFB9AB008DBE94 /* mall-common.css in Resources */,
+				166C8FA01DEFB9AB008DBE94 /* iconfont.eot in Resources */,
+				166C8F981DEFB9AB008DBE94 /* mall.css in Resources */,
+				166C8FB71DEFB9AB008DBE94 /* main_banner2.png in Resources */,
+				166C902B1DEFB9AB008DBE94 /* ionic.bundle.min.js in Resources */,
+				166C8FF21DEFB9AB008DBE94 /* score.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -522,6 +1690,7 @@
 				160E27361DE7D49B00540992 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		160E27371DE7D49B00540992 /* Build configuration list for PBXNativeTarget "DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +1699,7 @@
 				160E27391DE7D49B00540992 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		160E273A1DE7D49B00540992 /* Build configuration list for PBXNativeTarget "DemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +1708,7 @@
 				160E273C1DE7D49B00540992 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

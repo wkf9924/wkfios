@@ -1,0 +1,17 @@
+<ion-view>
+	<ion-nav-title>图文详情</ion-nav-title>
+	<ion-content class="content-bg">
+    		<div class="product-paras" >
+    			<ul class="list">
+    				<li class="item" ng-repeat="para in paras">
+    					<span class="title">{{para.paramName}}</span>
+    					<span class="content">{{para.paramValue}}</span>
+    				</li>
+    			</ul>
+    			
+    				
+    			
+    		</div>
+	</ion-content>
+    
+</ion-view>

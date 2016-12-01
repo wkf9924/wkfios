@@ -1,0 +1,18 @@
+cordova.define("cordova-plugin-goserpay.GoSerPay", function(require, exports, module) {
+
+    	var goserpay = {
+        	goSerPay:function(id,token,success,failure){
+            	cordova.exec(
+                		success,
+                		failure,
+                		'GoSerPay',
+                		'GoSerPayAction',
+                		[id,token]
+            	);
+        	}
+
+    	};
+
+    module.exports = goserpay;
+
+});
